@@ -6,12 +6,14 @@ on:
       - "retrospective-data/**"
       - "target-data-pipeline/**"
       - ".github/workflows/test-target-data-pipeline.yml"
+      - ".github/workflows/publish-data-release.yml"
   push:
     branches: [main]
     paths:
       - "retrospective-data/**"
       - "target-data-pipeline/**"
       - ".github/workflows/test-target-data-pipeline.yml"
+      - ".github/workflows/publish-data-release.yml"
 
 permissions:
   contents: read

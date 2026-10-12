@@ -1,0 +1,66 @@
+name: Publish weekly data release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "target-data/time-series.csv"
+
+concurrency:
+  group: weekly-data-release
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: target-data-pipeline/pyproject.toml
+      - name: Install target-data pipeline
+        run: python -m pip install -e target-data-pipeline
+      - name: Read target data before the merge
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+        run: |
+          if git cat-file -e "${BEFORE_SHA}:target-data/time-series.csv" 2>/dev/null; then
+            git show "${BEFORE_SHA}:target-data/time-series.csv" > "$RUNNER_TEMP/previous-time-series.csv"
+          fi
+      - name: Prepare release notification
+        id: release
+        env:
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          args=(
+            --current target-data/time-series.csv
+            --repository "$REPOSITORY"
+            --github-output "$GITHUB_OUTPUT"
+            --notes "$RUNNER_TEMP/release-notes.md"
+          )
+          if [ -f "$RUNNER_TEMP/previous-time-series.csv" ]; then
+            args+=(--previous "$RUNNER_TEMP/previous-time-series.csv")
+          fi
+          prepare-influenza-data-release "${args[@]}"
+      - name: Publish GitHub Release
+        if: steps.release.outputs.should_release == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          WEEK: ${{ steps.release.outputs.week }}
+        run: |
+          tag="influenza-data-${WEEK}"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            echo "Release $tag already exists; nothing to publish."
+            exit 0
+          fi
+          gh release create "$tag" \
+            --target "$GITHUB_SHA" \
+            --title "Influenza data through ${WEEK}" \
+            --notes-file "$RUNNER_TEMP/release-notes.md"

@@ -33,3 +33,10 @@ The retrospective 2025/2026 exercise and its input files are described in
 [`retrospective-data/2025-2026/README.md`](retrospective-data/2025-2026/README.md).
 
 The public visualization component will be added separately.
+
+## Weekly data notifications
+
+Each newly merged target week is published as a GitHub Release. To receive a
+notification through your GitHub account, select **Watch → Custom → Releases**
+on this repository's main page. GitHub delivers the notification according to
+your personal web, email and mobile notification settings.

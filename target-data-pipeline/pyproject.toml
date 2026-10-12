@@ -11,6 +11,7 @@ dependencies = ["requests>=2.31,<3"]
 
 [project.scripts]
 build-retrospective-influenza-data = "influenza_target_data.retrospective:main"
+prepare-influenza-data-release = "influenza_target_data.release:main"
 update-influenza-target-data = "influenza_target_data.update:main"
 
 [tool.setuptools.packages.find]
