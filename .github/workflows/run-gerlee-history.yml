@@ -1,0 +1,119 @@
+name: Generate gerlee-history forecast
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "target-data/time-series.csv"
+  workflow_dispatch:
+    inputs:
+      reference_date:
+        description: "Optional Sunday reference date (YYYY-MM-DD)"
+        required: false
+        type: string
+
+concurrency:
+  group: gerlee-history-forecast
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  forecast:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out forecast hub
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Check out gerlee-history model
+        uses: actions/checkout@v6
+        with:
+          repository: philipgerlee/swedish-influenza-history-model
+          ref: main
+          path: external-model/gerlee-history
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: |
+            submission-validator/pyproject.toml
+            external-model/gerlee-history/pyproject.toml
+
+      - name: Install model and validator
+        run: |
+          python -m pip install ./external-model/gerlee-history
+          python -m pip install ./submission-validator
+
+      - name: Determine forecast round
+        id: round
+        env:
+          REQUESTED_REFERENCE_DATE: ${{ inputs.reference_date }}
+        run: |
+          python - <<'PY'
+          import csv
+          import os
+          from datetime import date, timedelta
+          from pathlib import Path
+
+          requested = os.environ.get("REQUESTED_REFERENCE_DATE", "").strip()
+          if requested:
+              reference = date.fromisoformat(requested)
+          else:
+              with Path("target-data/time-series.csv").open(encoding="utf-8-sig", newline="") as handle:
+                  rows = [
+                      row for row in csv.DictReader(handle)
+                      if row["status"] == "available" and row["value"].strip()
+                  ]
+              latest = max(date.fromisoformat(row["target_end_date"]) for row in rows)
+              reference = latest + timedelta(days=7)
+          if reference.weekday() != 6:
+              raise SystemExit("reference_date must be a Sunday")
+          output = Path("model-output/gerlee-history") / f"{reference}-gerlee-history.csv"
+          with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as handle:
+              handle.write(f"reference_date={reference}\n")
+              handle.write(f"output={output}\n")
+              handle.write(f"exists={'true' if output.is_file() else 'false'}\n")
+          PY
+
+      - name: Generate and validate forecast
+        if: steps.round.outputs.exists != 'true'
+        env:
+          REFERENCE_DATE: ${{ steps.round.outputs.reference_date }}
+          OUTPUT: ${{ steps.round.outputs.output }}
+        run: |
+          python external-model/gerlee-history/model_template.py \
+            "$REFERENCE_DATE" gerlee-history --output "$OUTPUT"
+          validate-model-metadata model-metadata/gerlee-history.yml
+          validate-forecast-submission "$OUTPUT" \
+            --metadata-root model-metadata \
+            --submitted-at "$(date -Iseconds)" \
+            --require-all-locations
+
+      - name: Open forecast pull request
+        if: steps.round.outputs.exists != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REFERENCE_DATE: ${{ steps.round.outputs.reference_date }}
+          OUTPUT: ${{ steps.round.outputs.output }}
+        run: |
+          branch="automation/gerlee-history-${REFERENCE_DATE}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add "$OUTPUT"
+          git commit -m "Add gerlee-history forecast for ${REFERENCE_DATE}"
+          git push origin "$branch"
+          gh pr create \
+            --base main \
+            --head "$branch" \
+            --title "gerlee-history forecast for ${REFERENCE_DATE}" \
+            --body "Automatically generated after the latest influenza target-data release."
+
+      - name: Report existing forecast
+        if: steps.round.outputs.exists == 'true'
+        run: echo "${{ steps.round.outputs.output }} already exists; nothing to do."

@@ -23,5 +23,7 @@ data_sources:
 software:
   - Python 3.11
   - NumPy and SciPy
+code_repository: https://github.com/philipgerlee/swedish-influenza-history-model
+code_license: MIT
 license: CC-BY-4.0
 designated_model: true
