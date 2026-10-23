@@ -224,10 +224,16 @@ def match_forecasts(
     manifest_path: Path,
     outcomes_path: Path,
     require_complete_models: bool = True,
+    exclude_model_prefixes: tuple[str, ...] = (),
 ) -> tuple[list[dict[str, Any]], list[Path]]:
     manifest = load_manifest(manifest_path)
     outcomes = load_outcomes(outcomes_path)
     files = discover_historical_files(model_output_root, set(manifest))
+    files = [
+        item
+        for item in files
+        if not any(item[1].startswith(prefix) for prefix in exclude_model_prefixes)
+    ]
     if require_complete_models:
         rounds_by_model: dict[str, set[date]] = {}
         for _, model_id, reference_date in files:
@@ -306,6 +312,12 @@ def parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Write empty artifacts instead of failing when no historical files exist",
     )
+    result.add_argument(
+        "--exclude-model-prefix",
+        action="append",
+        default=[],
+        help="Exclude model IDs beginning with this prefix (repeatable)",
+    )
     return result
 
 
@@ -317,6 +329,7 @@ def main() -> None:
             manifest_path=args.manifest,
             outcomes_path=args.outcomes,
             require_complete_models=True,
+            exclude_model_prefixes=tuple(args.exclude_model_prefix),
         )
         if not files and not args.allow_empty:
             raise ValueError("No retrospective forecast files were found")

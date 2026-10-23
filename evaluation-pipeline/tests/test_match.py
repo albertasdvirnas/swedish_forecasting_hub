@@ -52,7 +52,12 @@ class MatchTests(unittest.TestCase):
             writer.writerows(rows)
         return path
 
-    def match(self, *, require_complete_models: bool = False):
+    def match(
+        self,
+        *,
+        require_complete_models: bool = False,
+        exclude_model_prefixes: tuple[str, ...] = (),
+    ):
         return match_forecasts(
             model_output_root=self.model_output_root,
             manifest_path=(
@@ -63,6 +68,7 @@ class MatchTests(unittest.TestCase):
                 / "retrospective-data/2025-2026/final-outcomes.csv"
             ),
             require_complete_models=require_complete_models,
+            exclude_model_prefixes=exclude_model_prefixes,
         )
 
     def test_matches_horizons_to_the_correct_final_outcomes(self):
@@ -109,6 +115,17 @@ class MatchTests(unittest.TestCase):
         rows, files = self.match()
         self.assertEqual(len(files), 1)
         self.assertEqual(len(rows), 12)
+
+    def test_excludes_models_by_prefix(self):
+        self.model_id = "hubdemo-example"
+        self.write_forecast("2025-10-05")
+        self.model_id = "participant-example"
+        participant_file = self.write_forecast("2025-10-05")
+
+        rows, files = self.match(exclude_model_prefixes=("hubdemo-",))
+
+        self.assertEqual(files, [participant_file])
+        self.assertEqual({row["model_id"] for row in rows}, {"participant-example"})
 
     def test_writes_machine_readable_outputs(self):
         self.write_forecast("2025-10-05")
