@@ -7,7 +7,7 @@ name = "swedish-influenza-evaluation"
 version = "0.1.0"
 description = "Match Swedish Influenza Forecast Hub forecasts to outcomes"
 requires-python = ">=3.11"
-dependencies = ["scikit-learn>=1.2,<2"]
+dependencies = ["scikit-learn>=1.2,<2", "PyYAML>=6.0,<7"]
 
 [project.scripts]
 match-retrospective-forecasts = "influenza_evaluation.match:main"
@@ -17,6 +17,8 @@ score-retrospective-qra = "influenza_evaluation.probabilistic_score:main"
 build-retrospective-probabilistic-baseline = "influenza_evaluation.baseline:main"
 compare-retrospective-probabilistic-forecasts = "influenza_evaluation.probabilistic_compare:main"
 build-dashboard-hub-view = "influenza_evaluation.dashboard_adapter:main"
+build-current-qra = "influenza_evaluation.current_qra:main"
+build-dashboard-bundle = "influenza_evaluation.dashboard_bundle:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
