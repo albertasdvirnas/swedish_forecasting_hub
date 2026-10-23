@@ -3,7 +3,7 @@ name: Update influenza target data
 on:
   schedule:
     # The Python gate keeps only 08:00-18:00 Europe/Stockholm.
-    - cron: "0 6-18 * * 4-6"
+    - cron: "17 6-18 * * 4-6"
   workflow_dispatch:
     inputs:
       target_week:

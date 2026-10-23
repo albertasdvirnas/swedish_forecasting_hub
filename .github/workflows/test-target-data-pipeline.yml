@@ -7,6 +7,7 @@ on:
       - "target-data-pipeline/**"
       - ".github/workflows/test-target-data-pipeline.yml"
       - ".github/workflows/publish-data-release.yml"
+      - ".github/workflows/update-target-data.yml"
   push:
     branches: [main]
     paths:
@@ -14,6 +15,7 @@ on:
       - "target-data-pipeline/**"
       - ".github/workflows/test-target-data-pipeline.yml"
       - ".github/workflows/publish-data-release.yml"
+      - ".github/workflows/update-target-data.yml"
 
 permissions:
   contents: read
