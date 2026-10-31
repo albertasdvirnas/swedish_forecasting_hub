@@ -68,6 +68,17 @@ jobs:
             --qra-input /tmp/current-evaluation/qra/qra-forecasts.csv \
             --baseline-input /tmp/current-evaluation/probabilistic-baseline/normal-ma3-baseline-forecasts.csv \
             --output-root /tmp/current-evaluation/dashboard-hub-view
+          build-current-qra \
+            --matched-input /tmp/current-evaluation/matched-forecasts.csv \
+            --output-root /tmp/current-evaluation/current-qra
+          build-dashboard-bundle \
+            --matched-input /tmp/current-evaluation/matched-forecasts.csv \
+            --retrospective-qra /tmp/current-evaluation/qra/qra-forecasts.csv \
+            --current-qra /tmp/current-evaluation/current-qra/current-qra.csv \
+            --output-root /tmp/current-evaluation/dashboard-bundle
+          test -s /tmp/current-evaluation/dashboard-bundle/manifest.json
+          test -s /tmp/current-evaluation/dashboard-bundle/current-point.csv
+          test -s /tmp/current-evaluation/dashboard-bundle/current-qra.csv
       - name: Rebuild committed demonstration results
         run: |
           mkdir -p /tmp/demo-model-output

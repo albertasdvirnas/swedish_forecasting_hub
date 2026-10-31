@@ -1,0 +1,29 @@
+model_id: gerlee-history
+team_name: Philip Gerlee
+team_abbr: gerlee
+model_name: Adaptive historical-season regression
+model_abbr: history
+model_version: 1.0.0
+model_contributors:
+  - name: Philip Gerlee
+    affiliation: Chalmers University of Technology, Department of Mathematical Sciences
+methods: >-
+  For each location, weekly reported influenza cases are forecast as a
+  non-negative linear combination of the corresponding ISO-week counts in
+  complete previous seasons. Coefficients start at equal weights and are
+  updated from week 30 onward by non-negative ridge regression around the
+  equal-weight prior. The atypical 2020/21 season is excluded. One common
+  regularization strength, lambda = 1, is used for Sweden, Skåne and Västra
+  Götaland. It was selected by rolling-origin mean absolute error on earlier
+  seasons without using the held-out 2025/26 outcomes. The model returns point
+  forecasts for horizons 0--3.
+method_category: statistical
+data_sources:
+  - Swedish Influenza Forecast Hub target and retrospective data
+software:
+  - Python 3.11
+  - NumPy and SciPy
+code_repository: https://github.com/philipgerlee/swedish-influenza-history-model
+code_license: MIT
+license: CC-BY-4.0
+designated_model: true
