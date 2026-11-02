@@ -8,14 +8,38 @@ model_contributors:
 - name: Dongni Zhang
   affiliation: Department of Health, Medicine and Caring Sciences (HMV), Linköping University, Sweden
 methods: >-
-  The model forecasts weekly reported influenza cases for Sweden (SE), Region Skåne (SE-M), and Region Västra Götaland (SE-O). Each forecast horizon has its own XGBoost model, trained on weekly examples from all three locations, with location indicators identifying each region. 
-  
-  The latest observed case count provides the starting level, set to be max(latest_observed_case_count, 1). The predicted mean is this starting level multiplied by exp(F), where F is the sum of the fitted tree contributions for that horizon. The trees therefore learn a log-scale adjustment: positive values increase the forecast above the starting level, and negative values decrease it. Training uses observed target-week counts as labels and Poisson loss to fit the trees. 
-  
-  The implementation supplies the log of the starting level as base_margin during both training and prediction; the minimum of one keeps this value defined after a zero-count week. Its 22 features describe recent case counts and week-to-week changes, annual seasonality, location, school holidays, and era indicators. Sportlov features indicate whether a week falls within the winter school break. Christmas/New Year features measure the fraction of weekdays on break and the weeks until or since the break, capped at eight weeks. These holiday features are determined at both the latest observed week and the predicted week. Two era indicators distinguish three model-defined periods: pre-COVID, transition, and later seasons. 
-  
+  The model forecasts weekly reported influenza cases for Sweden (SE), Region
+  Skåne (SE-M), and Region Västra Götaland (SE-O). Each forecast horizon has its
+  own XGBoost model, trained on weekly examples from all three locations, with
+  location indicators identifying each region.
+
+  The latest observed case count provides the starting level, set to be
+  max(latest_observed_case_count, 1). The predicted mean is this starting level
+  multiplied by exp(F), where F is the sum of the fitted tree contributions for
+  that horizon. The trees therefore learn a log-scale adjustment: positive
+  values increase the forecast above the starting level, and negative values
+  decrease it. Training uses observed target-week counts as labels and Poisson
+  loss to fit the trees.
+
+  The implementation supplies the log of the starting level as base_margin
+  during both training and prediction; the minimum of one keeps this value
+  defined after a zero-count week. Its 22 features describe recent case counts
+  and week-to-week changes, annual seasonality, location, school holidays, and
+  era indicators. Sportlov features indicate whether a week falls within the
+  winter school break. Christmas/New Year features measure the fraction of
+  weekdays on break and the weeks until or since the break, capped at eight
+  weeks. These holiday features are determined at both the latest observed week
+  and the predicted week. Two era indicators distinguish three model-defined
+  periods: pre-COVID, transition, and later seasons.
+
   Hyperparameters were selected from 24 combinations using rolling validation
-  across the 2022/23, 2023/24 and 2024/25 seasons, then held fixed for the 2025/26 retrospective forecasts and 2026/27 prospective forecasts. For each forecast issued in week t, the four horizon models are refitted using all eligible historical data available through week t-1 to predict weeks t through t+3. The training window therefore expands as new weekly observations become available, while the hyperparameters remain unchanged. The fitted trees are updated at each round.
+  across the 2022/23, 2023/24 and 2024/25 seasons, then held fixed for the
+  2025/26 retrospective forecasts and 2026/27 prospective forecasts. For each
+  forecast issued in week t, the four horizon models are refitted using all
+  eligible historical data available through week t-1 to predict weeks t through
+  t+3. The training window therefore expands as new weekly observations become
+  available, while the hyperparameters remain unchanged. The fitted trees are
+  updated at each round.
 method_category: statistical
 data_sources:
 - Swedish Influenza Forecast Hub data
