@@ -27,7 +27,9 @@ conventions. The operational components currently include:
 
 Participant instructions are available in
 [`docs/model-submissions.md`](docs/model-submissions.md), with a Swedish quick
-guide in [`docs/model-submissions-sv.md`](docs/model-submissions-sv.md).
+guide in [`docs/model-submissions-sv.md`](docs/model-submissions-sv.md). Models
+maintained in an external GitHub repository can use the brief
+[`automated model workflow guide`](docs/automated-model-workflow.md).
 
 The retrospective 2025/2026 exercise and its input files are described in
 [`retrospective-data/2025-2026/README.md`](retrospective-data/2025-2026/README.md).
