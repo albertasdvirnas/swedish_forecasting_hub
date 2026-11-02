@@ -42,7 +42,7 @@ methods: >-
   updated at each round.
 method_category: statistical
 data_sources:
-- Swedish Influenza Forecast Hub data
+- Swedish Influenza Forecast Hub target and retrospective data
 - Historical school calendars from Skolporten and supplementary school sources
 software:
 - Python
