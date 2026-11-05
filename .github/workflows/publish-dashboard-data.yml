@@ -1,0 +1,102 @@
+name: Publish dashboard data
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "model-output/**"
+      - "model-metadata/**"
+      - "target-data/**"
+      - "retrospective-data/**"
+      - "evaluation-pipeline/**"
+      - ".github/workflows/publish-dashboard-data.yml"
+
+concurrency:
+  group: publish-dashboard-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out forecast hub
+        uses: actions/checkout@v6
+        with:
+          path: hub
+
+      - name: Check out published dashboard data
+        uses: actions/checkout@v6
+        with:
+          ref: dashboard-data
+          path: published-data
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: hub/evaluation-pipeline/pyproject.toml
+
+      - name: Install dashboard data builder
+        run: python -m pip install ./hub/evaluation-pipeline
+
+      - name: Build retrospective and current dashboard data
+        working-directory: hub
+        run: |
+          evaluation="${{ runner.temp }}/evaluation"
+          data="${{ runner.temp }}/dashboard-data"
+          match-retrospective-forecasts \
+            --exclude-model-prefix hubdemo- \
+            --output "$evaluation/matched-forecasts.csv" \
+            --report "$evaluation/match-report.json"
+          build-retrospective-qra \
+            --input "$evaluation/matched-forecasts.csv" \
+            --output-root "$evaluation/qra"
+          score-retrospective-qra \
+            --qra-input "$evaluation/qra/qra-forecasts.csv" \
+            --matched-input "$evaluation/matched-forecasts.csv" \
+            --output-root "$evaluation/qra-scores"
+          build-retrospective-probabilistic-baseline \
+            --output-root "$evaluation/baseline" \
+            --hubverse-output-root "$evaluation/baseline-hubverse"
+          compare-retrospective-probabilistic-forecasts \
+            --qra-input "$evaluation/qra/qra-forecasts.csv" \
+            --baseline-input "$evaluation/baseline/normal-ma3-baseline-forecasts.csv" \
+            --matched-input "$evaluation/matched-forecasts.csv" \
+            --output-root "$evaluation/comparison"
+          build-current-qra \
+            --matched-input "$evaluation/matched-forecasts.csv" \
+            --output-root "$evaluation/current-qra"
+          build-dashboard-bundle \
+            --matched-input "$evaluation/matched-forecasts.csv" \
+            --retrospective-qra "$evaluation/qra/qra-forecasts.csv" \
+            --current-qra "$evaluation/current-qra/current-qra.csv" \
+            --output-root "$data"
+          cp "$evaluation/comparison/probabilistic-comparison-by-location-horizon.csv" \
+            "$data/probabilistic-comparison-by-location-horizon.csv"
+
+      - name: Verify generated data
+        run: |
+          data="${{ runner.temp }}/dashboard-data"
+          for file in manifest.json models.json retrospective-point.csv retrospective-qra.csv retrospective-outcomes.csv current-point.csv current-qra.csv current-outcomes.csv probabilistic-comparison-by-location-horizon.csv; do
+            test -s "$data/$file"
+          done
+
+      - name: Publish dashboard-data branch
+        working-directory: published-data
+        run: |
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -R "${{ runner.temp }}/dashboard-data/." .
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          if git diff --cached --quiet; then
+            echo "No dashboard data changes to publish."
+          else
+            git commit -m "Update dashboard data for ${GITHUB_SHA:0:12}"
+            git push origin HEAD:dashboard-data
+          fi

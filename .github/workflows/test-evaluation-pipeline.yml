@@ -11,6 +11,7 @@ on:
       - "model-metadata/**"
       - "evaluation-output/**"
       - ".github/workflows/test-evaluation-pipeline.yml"
+      - ".github/workflows/publish-dashboard-data.yml"
   push:
     branches: [main]
     paths:
@@ -21,6 +22,7 @@ on:
       - "model-metadata/**"
       - "evaluation-output/**"
       - ".github/workflows/test-evaluation-pipeline.yml"
+      - ".github/workflows/publish-dashboard-data.yml"
 
 permissions:
   contents: read
