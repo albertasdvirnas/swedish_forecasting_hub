@@ -1,0 +1,44 @@
+model_id: bergstrom-bayesNB
+team_name: Fanny Bergström
+team_abbr: bergstrom
+model_name: Bayesian seasonal negative-binomial autoregression
+model_abbr: bayesNB
+model_version: 1.0.0
+model_contributors:
+  - name: Fanny Bergström
+    affiliation: University of Oxford
+methods: >-
+  Bayesian NB2 log-link regression fitted separately for each location and
+  horizon using R and Stan through CmdStanR. Uses recent count/growth features,
+  growth-level and growth-season interactions, national predictors for regional
+  forecasts, and deterministic Christmas/New Year and Easter calendar proxies.
+  At the one-week lead the duplicate target New Year indicator is omitted.
+  A full-rank design is required and only count lags used by predictors are required.
+  Rows are excluded when a required count predictor or target date falls
+  between 9 March 2020 and 30 June 2022 inclusive. Remaining rows use unit weight. Independent priors are Normal(0,1) for the intercept,
+  Normal(0,1/sqrt(10)) for standardized slopes, and
+  Normal(log(0.1),1.5) for log dispersion; Normal scales here are standard
+  deviations. Dispersion is inferred per task, with NB2 variance mu+alpha*mu^2.
+  Four NUTS chains, 1000 warmup and 1000 retained iterations per chain.
+  Submitted means average conditional means across posterior draws.
+  Rank-normalized Rhat, ESS, divergence, treedepth and energy checks gate output.
+  All observed predictors and training labels respect the preceding-Sunday
+  cutoff. Suppression is missing, never zero. Short or incomplete histories use
+  a disclosed persistence fallback without Bayesian intervals. Predictive and
+  mean credible intervals are retained separately from hub mean submissions.
+  Evaluation reports RMSE, MAE, bias, interval coverage and width on matched
+  retrospective tasks; prospective performance remains to be assessed.
+method_category: statistical
+data_sources:
+  - Swedish Influenza Forecast Hub target data and fixed retrospective inputs
+  - Deterministic Gregorian calendar dates
+software:
+  - R 4.5.2
+  - CmdStanR 0.9.0
+  - CmdStan 2.37.0
+  - posterior 1.7.0
+  - jsonlite 2.0.0
+code_repository: https://github.com/fannybergstrom/swedish_influenza_bayesnb
+code_license: GPL-3.0
+license: CC-BY-4.0
+designated_model: true
