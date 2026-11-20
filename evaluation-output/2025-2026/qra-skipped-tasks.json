@@ -4,62 +4,25 @@
     "location": "SE",
     "horizon": 0,
     "available_training_samples": 0,
+    "available_pooled_training_samples": 0,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
   {
-    "reference_date": "2025-10-12",
-    "location": "SE",
+    "reference_date": "2025-10-05",
+    "location": "SE-M",
     "horizon": 0,
-    "available_training_samples": 1,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 0,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
   {
-    "reference_date": "2025-10-19",
-    "location": "SE",
+    "reference_date": "2025-10-05",
+    "location": "SE-O",
     "horizon": 0,
-    "available_training_samples": 2,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-26",
-    "location": "SE",
-    "horizon": 0,
-    "available_training_samples": 3,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-02",
-    "location": "SE",
-    "horizon": 0,
-    "available_training_samples": 4,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-09",
-    "location": "SE",
-    "horizon": 0,
-    "available_training_samples": 5,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-16",
-    "location": "SE",
-    "horizon": 0,
-    "available_training_samples": 6,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-23",
-    "location": "SE",
-    "horizon": 0,
-    "available_training_samples": 7,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 0,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -68,70 +31,25 @@
     "location": "SE",
     "horizon": 1,
     "available_training_samples": 0,
+    "available_pooled_training_samples": 0,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
   {
-    "reference_date": "2025-10-12",
-    "location": "SE",
+    "reference_date": "2025-10-05",
+    "location": "SE-M",
     "horizon": 1,
     "available_training_samples": 0,
+    "available_pooled_training_samples": 0,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
   {
-    "reference_date": "2025-10-19",
-    "location": "SE",
+    "reference_date": "2025-10-05",
+    "location": "SE-O",
     "horizon": 1,
-    "available_training_samples": 1,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-26",
-    "location": "SE",
-    "horizon": 1,
-    "available_training_samples": 2,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-02",
-    "location": "SE",
-    "horizon": 1,
-    "available_training_samples": 3,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-09",
-    "location": "SE",
-    "horizon": 1,
-    "available_training_samples": 4,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-16",
-    "location": "SE",
-    "horizon": 1,
-    "available_training_samples": 5,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-23",
-    "location": "SE",
-    "horizon": 1,
-    "available_training_samples": 6,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-30",
-    "location": "SE",
-    "horizon": 1,
-    "available_training_samples": 7,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 0,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -140,6 +58,106 @@
     "location": "SE",
     "horizon": 2,
     "available_training_samples": 0,
+    "available_pooled_training_samples": 0,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-05",
+    "location": "SE-M",
+    "horizon": 2,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 0,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-05",
+    "location": "SE-O",
+    "horizon": 2,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 0,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-05",
+    "location": "SE",
+    "horizon": 3,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 0,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-05",
+    "location": "SE-M",
+    "horizon": 3,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 0,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-05",
+    "location": "SE-O",
+    "horizon": 3,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 0,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-12",
+    "location": "SE",
+    "horizon": 0,
+    "available_training_samples": 1,
+    "available_pooled_training_samples": 3,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-12",
+    "location": "SE-M",
+    "horizon": 0,
+    "available_training_samples": 1,
+    "available_pooled_training_samples": 3,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-12",
+    "location": "SE-O",
+    "horizon": 0,
+    "available_training_samples": 1,
+    "available_pooled_training_samples": 3,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-12",
+    "location": "SE",
+    "horizon": 1,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 3,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-12",
+    "location": "SE-M",
+    "horizon": 1,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 3,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-12",
+    "location": "SE-O",
+    "horizon": 1,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 3,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -148,6 +166,106 @@
     "location": "SE",
     "horizon": 2,
     "available_training_samples": 0,
+    "available_pooled_training_samples": 3,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-12",
+    "location": "SE-M",
+    "horizon": 2,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 3,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-12",
+    "location": "SE-O",
+    "horizon": 2,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 3,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-12",
+    "location": "SE",
+    "horizon": 3,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 3,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-12",
+    "location": "SE-M",
+    "horizon": 3,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 3,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-12",
+    "location": "SE-O",
+    "horizon": 3,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 3,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-19",
+    "location": "SE",
+    "horizon": 0,
+    "available_training_samples": 2,
+    "available_pooled_training_samples": 9,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-19",
+    "location": "SE-M",
+    "horizon": 0,
+    "available_training_samples": 2,
+    "available_pooled_training_samples": 9,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-19",
+    "location": "SE-O",
+    "horizon": 0,
+    "available_training_samples": 2,
+    "available_pooled_training_samples": 9,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-19",
+    "location": "SE",
+    "horizon": 1,
+    "available_training_samples": 1,
+    "available_pooled_training_samples": 9,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-19",
+    "location": "SE-M",
+    "horizon": 1,
+    "available_training_samples": 1,
+    "available_pooled_training_samples": 9,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-19",
+    "location": "SE-O",
+    "horizon": 1,
+    "available_training_samples": 1,
+    "available_pooled_training_samples": 9,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -156,6 +274,106 @@
     "location": "SE",
     "horizon": 2,
     "available_training_samples": 0,
+    "available_pooled_training_samples": 9,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-19",
+    "location": "SE-M",
+    "horizon": 2,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 9,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-19",
+    "location": "SE-O",
+    "horizon": 2,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 9,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-19",
+    "location": "SE",
+    "horizon": 3,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 9,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-19",
+    "location": "SE-M",
+    "horizon": 3,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 9,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-19",
+    "location": "SE-O",
+    "horizon": 3,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 9,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-26",
+    "location": "SE",
+    "horizon": 0,
+    "available_training_samples": 3,
+    "available_pooled_training_samples": 18,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-26",
+    "location": "SE-M",
+    "horizon": 0,
+    "available_training_samples": 3,
+    "available_pooled_training_samples": 18,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-26",
+    "location": "SE-O",
+    "horizon": 0,
+    "available_training_samples": 3,
+    "available_pooled_training_samples": 18,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-26",
+    "location": "SE",
+    "horizon": 1,
+    "available_training_samples": 2,
+    "available_pooled_training_samples": 18,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-26",
+    "location": "SE-M",
+    "horizon": 1,
+    "available_training_samples": 2,
+    "available_pooled_training_samples": 18,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-26",
+    "location": "SE-O",
+    "horizon": 1,
+    "available_training_samples": 2,
+    "available_pooled_training_samples": 18,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -164,6 +382,106 @@
     "location": "SE",
     "horizon": 2,
     "available_training_samples": 1,
+    "available_pooled_training_samples": 18,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-26",
+    "location": "SE-M",
+    "horizon": 2,
+    "available_training_samples": 1,
+    "available_pooled_training_samples": 18,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-26",
+    "location": "SE-O",
+    "horizon": 2,
+    "available_training_samples": 1,
+    "available_pooled_training_samples": 18,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-26",
+    "location": "SE",
+    "horizon": 3,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 18,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-26",
+    "location": "SE-M",
+    "horizon": 3,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 18,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-10-26",
+    "location": "SE-O",
+    "horizon": 3,
+    "available_training_samples": 0,
+    "available_pooled_training_samples": 18,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-02",
+    "location": "SE",
+    "horizon": 0,
+    "available_training_samples": 4,
+    "available_pooled_training_samples": 30,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-02",
+    "location": "SE-M",
+    "horizon": 0,
+    "available_training_samples": 4,
+    "available_pooled_training_samples": 30,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-02",
+    "location": "SE-O",
+    "horizon": 0,
+    "available_training_samples": 4,
+    "available_pooled_training_samples": 30,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-02",
+    "location": "SE",
+    "horizon": 1,
+    "available_training_samples": 3,
+    "available_pooled_training_samples": 30,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-02",
+    "location": "SE-M",
+    "horizon": 1,
+    "available_training_samples": 3,
+    "available_pooled_training_samples": 30,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-02",
+    "location": "SE-O",
+    "horizon": 1,
+    "available_training_samples": 3,
+    "available_pooled_training_samples": 30,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -172,6 +490,106 @@
     "location": "SE",
     "horizon": 2,
     "available_training_samples": 2,
+    "available_pooled_training_samples": 30,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-02",
+    "location": "SE-M",
+    "horizon": 2,
+    "available_training_samples": 2,
+    "available_pooled_training_samples": 30,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-02",
+    "location": "SE-O",
+    "horizon": 2,
+    "available_training_samples": 2,
+    "available_pooled_training_samples": 30,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-02",
+    "location": "SE",
+    "horizon": 3,
+    "available_training_samples": 1,
+    "available_pooled_training_samples": 30,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-02",
+    "location": "SE-M",
+    "horizon": 3,
+    "available_training_samples": 1,
+    "available_pooled_training_samples": 30,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-02",
+    "location": "SE-O",
+    "horizon": 3,
+    "available_training_samples": 1,
+    "available_pooled_training_samples": 30,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-09",
+    "location": "SE",
+    "horizon": 0,
+    "available_training_samples": 5,
+    "available_pooled_training_samples": 42,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-09",
+    "location": "SE-M",
+    "horizon": 0,
+    "available_training_samples": 5,
+    "available_pooled_training_samples": 42,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-09",
+    "location": "SE-O",
+    "horizon": 0,
+    "available_training_samples": 5,
+    "available_pooled_training_samples": 42,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-09",
+    "location": "SE",
+    "horizon": 1,
+    "available_training_samples": 4,
+    "available_pooled_training_samples": 42,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-09",
+    "location": "SE-M",
+    "horizon": 1,
+    "available_training_samples": 4,
+    "available_pooled_training_samples": 42,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-09",
+    "location": "SE-O",
+    "horizon": 1,
+    "available_training_samples": 4,
+    "available_pooled_training_samples": 42,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -180,6 +598,106 @@
     "location": "SE",
     "horizon": 2,
     "available_training_samples": 3,
+    "available_pooled_training_samples": 42,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-09",
+    "location": "SE-M",
+    "horizon": 2,
+    "available_training_samples": 3,
+    "available_pooled_training_samples": 42,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-09",
+    "location": "SE-O",
+    "horizon": 2,
+    "available_training_samples": 3,
+    "available_pooled_training_samples": 42,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-09",
+    "location": "SE",
+    "horizon": 3,
+    "available_training_samples": 2,
+    "available_pooled_training_samples": 42,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-09",
+    "location": "SE-M",
+    "horizon": 3,
+    "available_training_samples": 2,
+    "available_pooled_training_samples": 42,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-09",
+    "location": "SE-O",
+    "horizon": 3,
+    "available_training_samples": 2,
+    "available_pooled_training_samples": 42,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-16",
+    "location": "SE",
+    "horizon": 0,
+    "available_training_samples": 6,
+    "available_pooled_training_samples": 54,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-16",
+    "location": "SE-M",
+    "horizon": 0,
+    "available_training_samples": 6,
+    "available_pooled_training_samples": 54,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-16",
+    "location": "SE-O",
+    "horizon": 0,
+    "available_training_samples": 6,
+    "available_pooled_training_samples": 54,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-16",
+    "location": "SE",
+    "horizon": 1,
+    "available_training_samples": 5,
+    "available_pooled_training_samples": 54,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-16",
+    "location": "SE-M",
+    "horizon": 1,
+    "available_training_samples": 5,
+    "available_pooled_training_samples": 54,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-16",
+    "location": "SE-O",
+    "horizon": 1,
+    "available_training_samples": 5,
+    "available_pooled_training_samples": 54,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -188,6 +706,106 @@
     "location": "SE",
     "horizon": 2,
     "available_training_samples": 4,
+    "available_pooled_training_samples": 54,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-16",
+    "location": "SE-M",
+    "horizon": 2,
+    "available_training_samples": 4,
+    "available_pooled_training_samples": 54,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-16",
+    "location": "SE-O",
+    "horizon": 2,
+    "available_training_samples": 4,
+    "available_pooled_training_samples": 54,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-16",
+    "location": "SE",
+    "horizon": 3,
+    "available_training_samples": 3,
+    "available_pooled_training_samples": 54,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-16",
+    "location": "SE-M",
+    "horizon": 3,
+    "available_training_samples": 3,
+    "available_pooled_training_samples": 54,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-16",
+    "location": "SE-O",
+    "horizon": 3,
+    "available_training_samples": 3,
+    "available_pooled_training_samples": 54,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-23",
+    "location": "SE",
+    "horizon": 0,
+    "available_training_samples": 7,
+    "available_pooled_training_samples": 66,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-23",
+    "location": "SE-M",
+    "horizon": 0,
+    "available_training_samples": 7,
+    "available_pooled_training_samples": 66,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-23",
+    "location": "SE-O",
+    "horizon": 0,
+    "available_training_samples": 7,
+    "available_pooled_training_samples": 66,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-23",
+    "location": "SE",
+    "horizon": 1,
+    "available_training_samples": 6,
+    "available_pooled_training_samples": 66,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-23",
+    "location": "SE-M",
+    "horizon": 1,
+    "available_training_samples": 6,
+    "available_pooled_training_samples": 66,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-23",
+    "location": "SE-O",
+    "horizon": 1,
+    "available_training_samples": 6,
+    "available_pooled_training_samples": 66,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -196,6 +814,79 @@
     "location": "SE",
     "horizon": 2,
     "available_training_samples": 5,
+    "available_pooled_training_samples": 66,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-23",
+    "location": "SE-M",
+    "horizon": 2,
+    "available_training_samples": 5,
+    "available_pooled_training_samples": 66,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-23",
+    "location": "SE-O",
+    "horizon": 2,
+    "available_training_samples": 5,
+    "available_pooled_training_samples": 66,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-23",
+    "location": "SE",
+    "horizon": 3,
+    "available_training_samples": 4,
+    "available_pooled_training_samples": 66,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-23",
+    "location": "SE-M",
+    "horizon": 3,
+    "available_training_samples": 4,
+    "available_pooled_training_samples": 66,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-23",
+    "location": "SE-O",
+    "horizon": 3,
+    "available_training_samples": 4,
+    "available_pooled_training_samples": 66,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-30",
+    "location": "SE",
+    "horizon": 1,
+    "available_training_samples": 7,
+    "available_pooled_training_samples": 78,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-30",
+    "location": "SE-M",
+    "horizon": 1,
+    "available_training_samples": 7,
+    "available_pooled_training_samples": 78,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-30",
+    "location": "SE-O",
+    "horizon": 1,
+    "available_training_samples": 7,
+    "available_pooled_training_samples": 78,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -204,6 +895,52 @@
     "location": "SE",
     "horizon": 2,
     "available_training_samples": 6,
+    "available_pooled_training_samples": 78,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-30",
+    "location": "SE-M",
+    "horizon": 2,
+    "available_training_samples": 6,
+    "available_pooled_training_samples": 78,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-30",
+    "location": "SE-O",
+    "horizon": 2,
+    "available_training_samples": 6,
+    "available_pooled_training_samples": 78,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-30",
+    "location": "SE",
+    "horizon": 3,
+    "available_training_samples": 5,
+    "available_pooled_training_samples": 78,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-30",
+    "location": "SE-M",
+    "horizon": 3,
+    "available_training_samples": 5,
+    "available_pooled_training_samples": 78,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-11-30",
+    "location": "SE-O",
+    "horizon": 3,
+    "available_training_samples": 5,
+    "available_pooled_training_samples": 78,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -212,78 +949,25 @@
     "location": "SE",
     "horizon": 2,
     "available_training_samples": 7,
+    "available_pooled_training_samples": 90,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
   {
-    "reference_date": "2025-10-05",
-    "location": "SE",
-    "horizon": 3,
-    "available_training_samples": 0,
+    "reference_date": "2025-12-07",
+    "location": "SE-M",
+    "horizon": 2,
+    "available_training_samples": 7,
+    "available_pooled_training_samples": 90,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
   {
-    "reference_date": "2025-10-12",
-    "location": "SE",
-    "horizon": 3,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-19",
-    "location": "SE",
-    "horizon": 3,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-26",
-    "location": "SE",
-    "horizon": 3,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-02",
-    "location": "SE",
-    "horizon": 3,
-    "available_training_samples": 1,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-09",
-    "location": "SE",
-    "horizon": 3,
-    "available_training_samples": 2,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-16",
-    "location": "SE",
-    "horizon": 3,
-    "available_training_samples": 3,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-23",
-    "location": "SE",
-    "horizon": 3,
-    "available_training_samples": 4,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-30",
-    "location": "SE",
-    "horizon": 3,
-    "available_training_samples": 5,
+    "reference_date": "2025-12-07",
+    "location": "SE-O",
+    "horizon": 2,
+    "available_training_samples": 7,
+    "available_pooled_training_samples": 90,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -292,6 +976,25 @@
     "location": "SE",
     "horizon": 3,
     "available_training_samples": 6,
+    "available_pooled_training_samples": 90,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-12-07",
+    "location": "SE-M",
+    "horizon": 3,
+    "available_training_samples": 6,
+    "available_pooled_training_samples": 90,
+    "required_training_samples": 8,
+    "reason": "insufficient_previous_complete_outcomes"
+  },
+  {
+    "reference_date": "2025-12-07",
+    "location": "SE-O",
+    "horizon": 3,
+    "available_training_samples": 6,
+    "available_pooled_training_samples": 90,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -300,302 +1003,7 @@
     "location": "SE",
     "horizon": 3,
     "available_training_samples": 7,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-05",
-    "location": "SE-M",
-    "horizon": 0,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-12",
-    "location": "SE-M",
-    "horizon": 0,
-    "available_training_samples": 1,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-19",
-    "location": "SE-M",
-    "horizon": 0,
-    "available_training_samples": 2,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-26",
-    "location": "SE-M",
-    "horizon": 0,
-    "available_training_samples": 3,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-02",
-    "location": "SE-M",
-    "horizon": 0,
-    "available_training_samples": 4,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-09",
-    "location": "SE-M",
-    "horizon": 0,
-    "available_training_samples": 5,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-16",
-    "location": "SE-M",
-    "horizon": 0,
-    "available_training_samples": 6,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-23",
-    "location": "SE-M",
-    "horizon": 0,
-    "available_training_samples": 7,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-05",
-    "location": "SE-M",
-    "horizon": 1,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-12",
-    "location": "SE-M",
-    "horizon": 1,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-19",
-    "location": "SE-M",
-    "horizon": 1,
-    "available_training_samples": 1,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-26",
-    "location": "SE-M",
-    "horizon": 1,
-    "available_training_samples": 2,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-02",
-    "location": "SE-M",
-    "horizon": 1,
-    "available_training_samples": 3,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-09",
-    "location": "SE-M",
-    "horizon": 1,
-    "available_training_samples": 4,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-16",
-    "location": "SE-M",
-    "horizon": 1,
-    "available_training_samples": 5,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-23",
-    "location": "SE-M",
-    "horizon": 1,
-    "available_training_samples": 6,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-30",
-    "location": "SE-M",
-    "horizon": 1,
-    "available_training_samples": 7,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-05",
-    "location": "SE-M",
-    "horizon": 2,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-12",
-    "location": "SE-M",
-    "horizon": 2,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-19",
-    "location": "SE-M",
-    "horizon": 2,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-26",
-    "location": "SE-M",
-    "horizon": 2,
-    "available_training_samples": 1,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-02",
-    "location": "SE-M",
-    "horizon": 2,
-    "available_training_samples": 2,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-09",
-    "location": "SE-M",
-    "horizon": 2,
-    "available_training_samples": 3,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-16",
-    "location": "SE-M",
-    "horizon": 2,
-    "available_training_samples": 4,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-23",
-    "location": "SE-M",
-    "horizon": 2,
-    "available_training_samples": 5,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-30",
-    "location": "SE-M",
-    "horizon": 2,
-    "available_training_samples": 6,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-12-07",
-    "location": "SE-M",
-    "horizon": 2,
-    "available_training_samples": 7,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-05",
-    "location": "SE-M",
-    "horizon": 3,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-12",
-    "location": "SE-M",
-    "horizon": 3,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-19",
-    "location": "SE-M",
-    "horizon": 3,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-26",
-    "location": "SE-M",
-    "horizon": 3,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-02",
-    "location": "SE-M",
-    "horizon": 3,
-    "available_training_samples": 1,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-09",
-    "location": "SE-M",
-    "horizon": 3,
-    "available_training_samples": 2,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-16",
-    "location": "SE-M",
-    "horizon": 3,
-    "available_training_samples": 3,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-23",
-    "location": "SE-M",
-    "horizon": 3,
-    "available_training_samples": 4,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-30",
-    "location": "SE-M",
-    "horizon": 3,
-    "available_training_samples": 5,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-12-07",
-    "location": "SE-M",
-    "horizon": 3,
-    "available_training_samples": 6,
+    "available_pooled_training_samples": 102,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -604,302 +1012,7 @@
     "location": "SE-M",
     "horizon": 3,
     "available_training_samples": 7,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-05",
-    "location": "SE-O",
-    "horizon": 0,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-12",
-    "location": "SE-O",
-    "horizon": 0,
-    "available_training_samples": 1,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-19",
-    "location": "SE-O",
-    "horizon": 0,
-    "available_training_samples": 2,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-26",
-    "location": "SE-O",
-    "horizon": 0,
-    "available_training_samples": 3,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-02",
-    "location": "SE-O",
-    "horizon": 0,
-    "available_training_samples": 4,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-09",
-    "location": "SE-O",
-    "horizon": 0,
-    "available_training_samples": 5,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-16",
-    "location": "SE-O",
-    "horizon": 0,
-    "available_training_samples": 6,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-23",
-    "location": "SE-O",
-    "horizon": 0,
-    "available_training_samples": 7,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-05",
-    "location": "SE-O",
-    "horizon": 1,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-12",
-    "location": "SE-O",
-    "horizon": 1,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-19",
-    "location": "SE-O",
-    "horizon": 1,
-    "available_training_samples": 1,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-26",
-    "location": "SE-O",
-    "horizon": 1,
-    "available_training_samples": 2,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-02",
-    "location": "SE-O",
-    "horizon": 1,
-    "available_training_samples": 3,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-09",
-    "location": "SE-O",
-    "horizon": 1,
-    "available_training_samples": 4,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-16",
-    "location": "SE-O",
-    "horizon": 1,
-    "available_training_samples": 5,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-23",
-    "location": "SE-O",
-    "horizon": 1,
-    "available_training_samples": 6,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-30",
-    "location": "SE-O",
-    "horizon": 1,
-    "available_training_samples": 7,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-05",
-    "location": "SE-O",
-    "horizon": 2,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-12",
-    "location": "SE-O",
-    "horizon": 2,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-19",
-    "location": "SE-O",
-    "horizon": 2,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-26",
-    "location": "SE-O",
-    "horizon": 2,
-    "available_training_samples": 1,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-02",
-    "location": "SE-O",
-    "horizon": 2,
-    "available_training_samples": 2,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-09",
-    "location": "SE-O",
-    "horizon": 2,
-    "available_training_samples": 3,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-16",
-    "location": "SE-O",
-    "horizon": 2,
-    "available_training_samples": 4,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-23",
-    "location": "SE-O",
-    "horizon": 2,
-    "available_training_samples": 5,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-30",
-    "location": "SE-O",
-    "horizon": 2,
-    "available_training_samples": 6,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-12-07",
-    "location": "SE-O",
-    "horizon": 2,
-    "available_training_samples": 7,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-05",
-    "location": "SE-O",
-    "horizon": 3,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-12",
-    "location": "SE-O",
-    "horizon": 3,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-19",
-    "location": "SE-O",
-    "horizon": 3,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-10-26",
-    "location": "SE-O",
-    "horizon": 3,
-    "available_training_samples": 0,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-02",
-    "location": "SE-O",
-    "horizon": 3,
-    "available_training_samples": 1,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-09",
-    "location": "SE-O",
-    "horizon": 3,
-    "available_training_samples": 2,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-16",
-    "location": "SE-O",
-    "horizon": 3,
-    "available_training_samples": 3,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-23",
-    "location": "SE-O",
-    "horizon": 3,
-    "available_training_samples": 4,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-11-30",
-    "location": "SE-O",
-    "horizon": 3,
-    "available_training_samples": 5,
-    "required_training_samples": 8,
-    "reason": "insufficient_previous_complete_outcomes"
-  },
-  {
-    "reference_date": "2025-12-07",
-    "location": "SE-O",
-    "horizon": 3,
-    "available_training_samples": 6,
+    "available_pooled_training_samples": 102,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   },
@@ -908,6 +1021,7 @@
     "location": "SE-O",
     "horizon": 3,
     "available_training_samples": 7,
+    "available_pooled_training_samples": 102,
     "required_training_samples": 8,
     "reason": "insufficient_previous_complete_outcomes"
   }
