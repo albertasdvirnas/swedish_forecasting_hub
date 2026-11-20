@@ -1,0 +1,25 @@
+model_id: isi-respiro
+team_name: ISI Foundation
+team_abbr: isi
+model_name: Respiro
+model_abbr: respiro
+model_version: 1.0.0
+model_contributors:
+- name: Nicolò Gozzi
+  affiliation: ISI Foundation, Turin, Italy
+methods: >-
+  Equal-weight combination of the Respiro ensemble (machine-learning and
+  analogue models trained on European influenza surveillance data) and a
+  statistical model of Swedish case counts.
+method_category: statistical
+data_sources:
+- Swedish Influenza Forecast Hub target and retrospective data
+- ECDC ERVISS primary-care sentinel ILI and influenza positivity (EU/EEA countries)
+software:
+- Python 3.13
+- LightGBM
+- NumPy, pandas
+code_repository: null
+code_license: null
+license: CC-BY-4.0
+designated_model: true
