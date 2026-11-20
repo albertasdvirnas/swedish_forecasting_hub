@@ -65,11 +65,17 @@ coefficients and an unpenalized intercept. Run:
 build-retrospective-qra
 ```
 
-For every location and horizon, each historical QRA forecast is trained only
-on outcomes that would already have been published by that forecast's
-`reference_date`. At least eight such outcomes are required. The regularization
-strength is selected separately for each quantile using expanding-window,
-one-step-ahead pinball loss on the training data.
+For each forecast origin, one coefficient vector per quantile is shared by all
+locations and horizons. Each historical QRA forecast is trained only on pooled
+outcomes that would already have been published by that forecast's
+`reference_date`. A task is published only after its location and horizon have
+at least eight such outcomes. The regularization strength is selected
+separately for each quantile using temporally ordered expanding-origin pinball
+loss.
+
+For the live 2026/2027 season, QRA forecasts through 15 November 2026 are kept
+as a frozen snapshot. The pooled specification starts with the forecast origin
+22 November 2026, so previously published forecasts are not revised.
 
 The seven quantiles 0.025, 0.1, 0.25, 0.5, 0.75, 0.9 and 0.975 define the
 central 50%, 80% and 95% prediction intervals. Negative predictions are

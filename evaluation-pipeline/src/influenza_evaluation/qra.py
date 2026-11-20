@@ -3,11 +3,9 @@
 from __future__ import annotations
 
 import argparse
-import bisect
 import csv
 import json
 import math
-from collections import defaultdict
 from dataclasses import dataclass
 from datetime import date, timedelta
 from pathlib import Path
@@ -197,46 +195,6 @@ def _pinball_loss(observed: float, predicted: float, quantile: float) -> float:
     return quantile * error if error >= 0 else (quantile - 1) * error
 
 
-def _cv_losses(
-    x: np.ndarray,
-    y: np.ndarray,
-    *,
-    quantile: float,
-    alphas: tuple[float, ...],
-) -> dict[float, list[float]]:
-    losses = {alpha: [] for alpha in alphas}
-    for validation_index in range(MIN_CV_TRAINING_SAMPLES, len(y)):
-        for alpha in alphas:
-            fitted = _scaled_fit(
-                x[:validation_index],
-                y[:validation_index],
-                x[validation_index],
-                quantile=quantile,
-                alpha=alpha,
-            )
-            losses[alpha].append(
-                _pinball_loss(
-                    float(y[validation_index]), fitted.prediction, quantile
-                )
-            )
-    return losses
-
-
-def _select_alpha(
-    losses: dict[float, list[float]],
-    *,
-    training_sample_count: int,
-) -> float:
-    validation_count = training_sample_count - MIN_CV_TRAINING_SAMPLES
-    if validation_count <= 0:
-        return max(losses)
-    candidates = []
-    for alpha, values in losses.items():
-        selected = values[:validation_count]
-        candidates.append((sum(selected) / len(selected), -alpha, alpha))
-    return min(candidates)[2]
-
-
 def generate_qra(
     cells: list[PanelCell],
     models: tuple[str, ...],
@@ -247,53 +205,143 @@ def generate_qra(
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
     if minimum_training_samples < MIN_CV_TRAINING_SAMPLES + 1:
         raise ValueError("minimum_training_samples is too small for forward validation")
-    grouped: dict[tuple[str, int], list[PanelCell]] = defaultdict(list)
-    for cell in cells:
-        grouped[(cell.location, cell.horizon)].append(cell)
-
     forecasts: list[dict[str, Any]] = []
     coefficients: list[dict[str, Any]] = []
     skipped: list[dict[str, Any]] = []
-    for (location, horizon), group in sorted(grouped.items()):
-        group.sort(key=lambda cell: cell.reference_date)
-        x = np.asarray(
-            [[cell.forecasts[model] for model in models] for cell in group],
-            dtype=float,
-        )
-        y = np.asarray([cell.observed_value for cell in group], dtype=float)
-        target_dates = [cell.target_end_date for cell in group]
-        losses = {
-            quantile: _cv_losses(x, y, quantile=quantile, alphas=alphas)
-            for quantile in quantiles
-        }
+    ordered_cells = sorted(
+        cells,
+        key=lambda cell: (
+            cell.target_end_date,
+            cell.reference_date,
+            cell.location,
+            cell.horizon,
+        ),
+    )
+    origins = sorted({cell.reference_date for cell in cells})
+    loss_records = {
+        quantile: {alpha: [] for alpha in alphas} for quantile in quantiles
+    }
 
-        for index, current in enumerate(group):
-            information_cutoff = current.reference_date - timedelta(days=7)
-            training_count = bisect.bisect_right(target_dates, information_cutoff)
-            if training_count < minimum_training_samples:
+    for origin in origins:
+        information_cutoff = origin - timedelta(days=7)
+        training = [
+            cell
+            for cell in ordered_cells
+            if cell.target_end_date <= information_cutoff
+        ]
+        current_cells = [
+            cell for cell in ordered_cells if cell.reference_date == origin
+        ]
+
+        if len(training) >= MIN_CV_TRAINING_SAMPLES:
+            x_training = np.asarray(
+                [[cell.forecasts[model] for model in models] for cell in training],
+                dtype=float,
+            )
+            y_training = np.asarray(
+                [cell.observed_value for cell in training], dtype=float
+            )
+            first_x = np.asarray(
+                [current_cells[0].forecasts[model] for model in models], dtype=float
+            )
+            for quantile in quantiles:
+                for alpha in alphas:
+                    fitted = _scaled_fit(
+                        x_training,
+                        y_training,
+                        first_x,
+                        quantile=quantile,
+                        alpha=alpha,
+                    )
+                    fitted_coefficients = np.asarray(fitted.coefficients, dtype=float)
+                    for current in current_cells:
+                        x_new = np.asarray(
+                            [current.forecasts[model] for model in models], dtype=float
+                        )
+                        prediction = fitted.intercept + float(
+                            np.dot(fitted_coefficients, x_new)
+                        )
+                        loss_records[quantile][alpha].append(
+                            (
+                                current.target_end_date,
+                                _pinball_loss(
+                                    current.observed_value, prediction, quantile
+                                ),
+                            )
+                        )
+
+        eligible = []
+        for current in current_cells:
+            task_training_count = sum(
+                cell.location == current.location
+                and cell.horizon == current.horizon
+                and cell.target_end_date <= information_cutoff
+                for cell in ordered_cells
+            )
+            if task_training_count < minimum_training_samples:
                 skipped.append(
                     {
-                        "reference_date": current.reference_date.isoformat(),
-                        "location": location,
-                        "horizon": horizon,
-                        "available_training_samples": training_count,
+                        "reference_date": origin.isoformat(),
+                        "location": current.location,
+                        "horizon": current.horizon,
+                        "available_training_samples": task_training_count,
+                        "available_pooled_training_samples": len(training),
                         "required_training_samples": minimum_training_samples,
                         "reason": "insufficient_previous_complete_outcomes",
                     }
                 )
                 continue
+            eligible.append(current)
+        if not eligible:
+            continue
+
+        x_training = np.asarray(
+            [[cell.forecasts[model] for model in models] for cell in training],
+            dtype=float,
+        )
+        y_training = np.asarray([cell.observed_value for cell in training], dtype=float)
+        first_x = np.asarray(
+            [eligible[0].forecasts[model] for model in models], dtype=float
+        )
+        fits = {}
+        for quantile in quantiles:
+            candidates = []
+            for alpha in alphas:
+                available = [
+                    loss
+                    for outcome_date, loss in loss_records[quantile][alpha]
+                    if outcome_date <= information_cutoff
+                ]
+                mean_loss = (
+                    sum(available) / len(available) if available else float("inf")
+                )
+                candidates.append((mean_loss, -alpha, alpha))
+            alpha = min(candidates)[2]
+            fits[quantile] = _scaled_fit(
+                x_training,
+                y_training,
+                first_x,
+                quantile=quantile,
+                alpha=alpha,
+            )
+
+        last_training_date = max(cell.target_end_date for cell in training).isoformat()
+        for current in eligible:
+            x_new = np.asarray(
+                [current.forecasts[model] for model in models], dtype=float
+            )
             raw_fits = []
             for quantile in quantiles:
-                alpha = _select_alpha(
-                    losses[quantile], training_sample_count=training_count
+                shared_fit = fits[quantile]
+                prediction = shared_fit.intercept + float(
+                    np.dot(np.asarray(shared_fit.coefficients), x_new)
                 )
                 raw_fits.append(
-                    _scaled_fit(
-                        x[:training_count],
-                        y[:training_count],
-                        x[index],
-                        quantile=quantile,
-                        alpha=alpha,
+                    FittedQuantile(
+                        prediction=prediction,
+                        intercept=shared_fit.intercept,
+                        coefficients=shared_fit.coefficients,
+                        alpha=shared_fit.alpha,
                     )
                 )
             nonnegative = [max(0.0, fit.prediction) for fit in raw_fits]
@@ -302,21 +350,20 @@ def generate_qra(
                 not math.isclose(raw, adjusted, rel_tol=1e-12, abs_tol=1e-12)
                 for raw, adjusted in zip(nonnegative, ordered)
             )
-            last_training_date = target_dates[training_count - 1].isoformat()
             for quantile, fitted, value in zip(quantiles, raw_fits, ordered):
                 forecasts.append(
                     {
                         "reference_date": current.reference_date.isoformat(),
                         "target_end_date": current.target_end_date.isoformat(),
                         "target": current.target,
-                        "horizon": horizon,
-                        "location": location,
+                        "horizon": current.horizon,
+                        "location": current.location,
                         "location_name": current.location_name,
                         "output_type": "quantile",
                         "output_type_id": format(quantile, "g"),
                         "value": format(value, ".12g"),
                         "raw_value": format(fitted.prediction, ".12g"),
-                        "training_sample_count": training_count,
+                        "training_sample_count": len(training),
                         "training_last_target_end_date": last_training_date,
                         "component_model_count": len(models),
                         "component_models": "|".join(models),
@@ -325,18 +372,21 @@ def generate_qra(
                         "outcome_data_version": current.outcome_data_version,
                     }
                 )
-                terms = [("intercept", fitted.intercept), *zip(models, fitted.coefficients)]
+                terms = [
+                    ("intercept", fitted.intercept),
+                    *zip(models, fitted.coefficients),
+                ]
                 for term, coefficient in terms:
                     coefficients.append(
                         {
                             "reference_date": current.reference_date.isoformat(),
-                            "horizon": horizon,
-                            "location": location,
+                            "horizon": current.horizon,
+                            "location": current.location,
                             "output_type_id": format(quantile, "g"),
                             "term": term,
                             "coefficient": format(coefficient, ".12g"),
                             "selected_alpha": format(fitted.alpha, "g"),
-                            "training_sample_count": training_count,
+                            "training_sample_count": len(training),
                         }
                     )
     return forecasts, coefficients, skipped
@@ -345,7 +395,12 @@ def generate_qra(
 def write_csv(path: Path, columns: tuple[str, ...], rows: list[dict[str, Any]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=columns, extrasaction="raise")
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=columns,
+            extrasaction="raise",
+            lineterminator="\n",
+        )
         writer.writeheader()
         writer.writerows(rows)
 
@@ -366,13 +421,18 @@ def write_report(
         "method_reference_doi": "10.1016/j.eneco.2021.105121",
         "penalty": "L1 on standardized model coefficients; intercept unpenalized",
         "standardization": "predictors and outcome standardized within each fit",
+        "pooling": (
+            "one coefficient vector per quantile shared by all locations and horizons"
+        ),
         "temporal_training_rule": (
             "target_end_date <= current reference_date - 7 days"
         ),
         "minimum_training_samples": MIN_TRAINING_SAMPLES,
         "quantiles": list(QUANTILES),
         "alpha_grid": list(ALPHAS),
-        "alpha_selection": "expanding-window one-step-ahead pinball loss",
+        "alpha_selection": (
+            "expanding-origin pinball loss from outcomes available by each cutoff"
+        ),
         "component_models": list(models),
         "qra_forecast_row_count": len(forecasts),
         "skipped_task_count": len(skipped),

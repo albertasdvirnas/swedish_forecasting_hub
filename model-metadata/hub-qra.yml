@@ -3,14 +3,16 @@ team_name: Swedish Influenza Forecast Hub
 team_abbr: hub
 model_name: Regularized quantile regression averaging ensemble
 model_abbr: qra
-model_version: 1.0.0
+model_version: 1.1.0
 model_contributors:
   - name: Swedish Influenza Forecast Hub
     affiliation: Chalmers University of Technology, Department of Mathematical Sciences
 methods: >-
-  L1-regularized quantile regression averaging fitted separately by location,
-  forecast horizon and quantile. Regularization is selected by temporally
-  ordered expanding-window validation.
+  L1-regularized quantile regression averaging with one coefficient vector per
+  quantile shared by every location and forecast horizon. Regularization is
+  selected by temporally ordered expanding-origin validation. This pooled
+  specification is used retrospectively for 2025/2026 and prospectively from
+  the forecast origin 22 November 2026.
 method_category: ensemble
 data_sources:
   - Swedish Influenza Forecast Hub model submissions

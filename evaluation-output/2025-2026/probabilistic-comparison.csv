@@ -1,283 +1,283 @@
 reference_date,target_end_date,target,horizon,location,location_name,forecast_kind,observed_value,qra_wis,baseline_wis,wis_difference,wis_skill,qra_covered_50,baseline_covered_50,qra_covered_80,baseline_covered_80,qra_covered_95,baseline_covered_95,outcome_data_version
-2025-11-30,2025-11-30,weekly incident influenza cases,0,SE,Sverige,nowcast,376,142.997332012,101.420359958,41.576972054,-0.409946997538,false,false,false,true,false,true,2026-08-25T00:00:00Z
-2025-12-07,2025-12-07,weekly incident influenza cases,0,SE,Sverige,nowcast,717,148.49965942,256.745274495,-108.245615075,0.421607039459,false,false,false,false,false,true,2026-08-25T00:00:00Z
-2025-12-14,2025-12-14,weekly incident influenza cases,0,SE,Sverige,nowcast,1325,8.22393894829,650.189813689,-641.965874741,0.987351479868,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2025-12-21,2025-12-21,weekly incident influenza cases,0,SE,Sverige,nowcast,1638,782.917911132,580.540397657,202.377513475,-0.34860194793,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2025-12-28,2025-12-28,weekly incident influenza cases,0,SE,Sverige,nowcast,1682,248.785739602,225.846630759,22.939108843,-0.101569409142,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-01-04,2026-01-04,weekly incident influenza cases,0,SE,Sverige,nowcast,2227,994.578986857,424.79671774,569.782269117,-1.34130572418,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2026-01-11,2026-01-11,weekly incident influenza cases,0,SE,Sverige,nowcast,1532,526.398844699,137.207087861,389.191756838,-2.83652807523,false,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-18,2026-01-18,weekly incident influenza cases,0,SE,Sverige,nowcast,1082,70.7154506895,476.497126841,-405.781676151,0.85159312259,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-01-25,2026-01-25,weekly incident influenza cases,0,SE,Sverige,nowcast,968,139.813146613,389.051167251,-249.238020638,0.640630440461,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-02-01,2026-02-01,weekly incident influenza cases,0,SE,Sverige,nowcast,1107,473.788141159,67.6931899057,406.094951253,-5.99905177787,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-02-08,2026-02-08,weekly incident influenza cases,0,SE,Sverige,nowcast,1404,367.848277967,152.076737938,215.771540029,-1.41883330057,false,false,false,true,false,true,2026-08-25T00:00:00Z
-2026-02-15,2026-02-15,weekly incident influenza cases,0,SE,Sverige,nowcast,1616,132.33619553,224.933219391,-92.597023861,0.411664511412,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-02-22,2026-02-22,weekly incident influenza cases,0,SE,Sverige,nowcast,1529,103.228007584,77.2391697533,25.9888378307,-0.336472257712,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-03-01,2026-03-01,weekly incident influenza cases,0,SE,Sverige,nowcast,1252,94.8020906226,114.650154857,-19.8480642344,0.173118512218,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-03-08,2026-03-08,weekly incident influenza cases,0,SE,Sverige,nowcast,775,145.007072378,432.859572434,-287.852500056,0.665002043128,false,false,false,false,true,false,2026-08-25T00:00:00Z
-2026-03-15,2026-03-15,weekly incident influenza cases,0,SE,Sverige,nowcast,475,106.304342068,451.297814677,-344.993472609,0.764447469917,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-22,2026-03-22,weekly incident influenza cases,0,SE,Sverige,nowcast,321,118.492045681,264.335600212,-145.843554531,0.551736332201,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-29,2026-03-29,weekly incident influenza cases,0,SE,Sverige,nowcast,223,105.780407131,130.013668958,-24.233261827,0.186390108219,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-05,2026-04-05,weekly incident influenza cases,0,SE,Sverige,nowcast,187,60.0696644683,75.5662842105,-15.4966197422,0.205073200358,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-12,2026-04-12,weekly incident influenza cases,0,SE,Sverige,nowcast,175,37.6391992161,60.1102071894,-22.4710079733,0.37383015338,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-19,2026-04-19,weekly incident influenza cases,0,SE,Sverige,nowcast,106,44.9588301188,61.2404732533,-16.2816431345,0.265864097215,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-26,2026-04-26,weekly incident influenza cases,0,SE,Sverige,nowcast,89,28.7215435506,54.2000715768,-25.4785280262,0.470082922125,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-05-03,2026-05-03,weekly incident influenza cases,0,SE,Sverige,nowcast,74,25.4454628238,48.1518580525,-22.7063952287,0.471558028019,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-05-10,2026-05-10,weekly incident influenza cases,0,SE,Sverige,nowcast,65,17.6294487628,40.9959053264,-23.3664565636,0.569970497726,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-05-17,2026-05-17,weekly incident influenza cases,0,SE,Sverige,nowcast,53,21.3126456114,39.2680036133,-17.9553580019,0.457251613266,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2025-12-07,2025-12-14,weekly incident influenza cases,1,SE,Sverige,forecast,1325,1012.95462996,764.62829452,248.32633544,-0.32476738988,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2025-12-14,2025-12-21,weekly incident influenza cases,1,SE,Sverige,forecast,1638,382.293522291,874.567520937,-492.273998646,0.562877064219,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2025-12-21,2025-12-28,weekly incident influenza cases,1,SE,Sverige,forecast,1682,2325.2549701,538.125466705,1787.12950339,-3.32102755578,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2025-12-28,2026-01-04,weekly incident influenza cases,1,SE,Sverige,forecast,2227,1033.14781869,659.251175859,373.896642831,-0.567153547119,false,false,false,false,true,false,2026-08-25T00:00:00Z
-2026-01-04,2026-01-11,weekly incident influenza cases,1,SE,Sverige,forecast,1532,737.508652478,75.8072745664,661.701377912,-8.72873192839,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-11,2026-01-18,weekly incident influenza cases,1,SE,Sverige,forecast,1082,908.232849824,422.382249253,485.850600571,-1.15026282811,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-01-18,2026-01-25,weekly incident influenza cases,1,SE,Sverige,forecast,968,801.317996961,501.377279148,299.940717813,-0.598233566393,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-01-25,2026-02-01,weekly incident influenza cases,1,SE,Sverige,forecast,1107,1149.17328406,226.477211844,922.696072216,-4.07412324049,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-02-01,2026-02-08,weekly incident influenza cases,1,SE,Sverige,forecast,1404,601.86579794,104.353221236,497.512576704,-4.76758235933,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-02-08,2026-02-15,weekly incident influenza cases,1,SE,Sverige,forecast,1616,646.11634649,266.561251298,379.555095192,-1.42389448333,false,false,false,false,false,true,2026-08-25T00:00:00Z
-2026-02-15,2026-02-22,weekly incident influenza cases,1,SE,Sverige,forecast,1529,303.254694181,160.120548318,143.134145863,-0.893914912025,false,false,false,true,true,true,2026-08-25T00:00:00Z
-2026-02-22,2026-03-01,weekly incident influenza cases,1,SE,Sverige,forecast,1252,118.822658374,92.1159612648,26.7066971092,-0.289924750744,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-03-01,2026-03-08,weekly incident influenza cases,1,SE,Sverige,forecast,775,242.848620004,394.217266752,-151.368646748,0.383972645326,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-08,2026-03-15,weekly incident influenza cases,1,SE,Sverige,forecast,475,312.20140151,643.842362713,-331.640961203,0.515096521151,false,false,false,false,true,false,2026-08-25T00:00:00Z
-2026-03-15,2026-03-22,weekly incident influenza cases,1,SE,Sverige,forecast,321,379.731797358,516.572243969,-136.840446611,0.264900888905,false,false,false,false,true,false,2026-08-25T00:00:00Z
-2026-03-22,2026-03-29,weekly incident influenza cases,1,SE,Sverige,forecast,223,343.948923336,299.300847583,44.648075753,-0.149174571718,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-29,2026-04-05,weekly incident influenza cases,1,SE,Sverige,forecast,187,212.445179943,144.549394339,67.895785604,-0.469706468951,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-05,2026-04-12,weekly incident influenza cases,1,SE,Sverige,forecast,175,178.446472818,91.7392847079,86.7071881101,-0.945147854446,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-12,2026-04-19,weekly incident influenza cases,1,SE,Sverige,forecast,106,94.7122239256,83.4657683344,11.2464555912,-0.134743330297,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-19,2026-04-26,weekly incident influenza cases,1,SE,Sverige,forecast,89,108.116087841,73.6991048667,34.4169829743,-0.466993229247,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-26,2026-05-03,weekly incident influenza cases,1,SE,Sverige,forecast,74,90.1689090445,66.0615109229,24.1073981216,-0.364923505152,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-05-03,2026-05-10,weekly incident influenza cases,1,SE,Sverige,forecast,65,88.591182495,59.1483379986,29.4428444964,-0.497779743145,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-05-10,2026-05-17,weekly incident influenza cases,1,SE,Sverige,forecast,53,89.6483615229,52.4127429772,37.2356185457,-0.710430640157,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-05-17,2026-05-24,weekly incident influenza cases,1,SE,Sverige,forecast,53,87.0018527498,48.9621576201,38.0396951297,-0.776920319257,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2025-12-14,2025-12-28,weekly incident influenza cases,2,SE,Sverige,forecast,1682,1670.90615909,850.92516096,819.98099813,-0.96363468346,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2025-12-21,2026-01-04,weekly incident influenza cases,2,SE,Sverige,forecast,2227,3155.07769175,1018.6898896,2136.38780215,-2.09719152409,false,false,false,false,true,false,2026-08-25T00:00:00Z
-2025-12-28,2026-01-11,weekly incident influenza cases,2,SE,Sverige,forecast,1532,2824.53092555,133.003981164,2691.52694439,-20.2364389459,false,false,false,true,true,true,2026-08-25T00:00:00Z
-2026-01-04,2026-01-18,weekly incident influenza cases,2,SE,Sverige,forecast,1082,2953.79055807,202.018659132,2751.77189894,-13.6213749302,false,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-11,2026-01-25,weekly incident influenza cases,2,SE,Sverige,forecast,968,3783.23503904,468.934512169,3314.30052687,-7.06772575032,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-01-18,2026-02-01,weekly incident influenza cases,2,SE,Sverige,forecast,1107,3670.89643037,343.250497916,3327.64593245,-9.69451159622,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-01-25,2026-02-08,weekly incident influenza cases,2,SE,Sverige,forecast,1404,4336.16515182,118.291027829,4217.87412399,-35.6567543744,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-01,2026-02-15,weekly incident influenza cases,2,SE,Sverige,forecast,1616,941.923640841,183.042819038,758.880821803,-4.14591965853,false,false,false,true,false,true,2026-08-25T00:00:00Z
-2026-02-08,2026-02-22,weekly incident influenza cases,2,SE,Sverige,forecast,1529,430.588084924,206.474472854,224.11361207,-1.08543012108,false,false,false,true,false,true,2026-08-25T00:00:00Z
-2026-02-15,2026-03-01,weekly incident influenza cases,2,SE,Sverige,forecast,1252,172.081600827,101.830435686,70.251165141,-0.689883772644,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-22,2026-03-08,weekly incident influenza cases,2,SE,Sverige,forecast,775,197.697824392,266.989359271,-69.291534879,0.259529200221,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-01,2026-03-15,weekly incident influenza cases,2,SE,Sverige,forecast,475,279.378593807,628.03331303,-348.654719223,0.555153225138,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-08,2026-03-22,weekly incident influenza cases,2,SE,Sverige,forecast,321,394.987345576,731.740204232,-336.752858656,0.460208222411,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-15,2026-03-29,weekly incident influenza cases,2,SE,Sverige,forecast,223,544.656881625,549.09750079,-4.440619165,0.00808712324972,false,false,false,false,true,false,2026-08-25T00:00:00Z
-2026-03-22,2026-04-05,weekly incident influenza cases,2,SE,Sverige,forecast,187,290.157839569,299.074500226,-8.916660657,0.0298141789095,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-29,2026-04-12,weekly incident influenza cases,2,SE,Sverige,forecast,175,272.573309362,147.424530278,125.148779084,-0.848900646643,false,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-05,2026-04-19,weekly incident influenza cases,2,SE,Sverige,forecast,106,280.127470564,112.264116988,167.863353576,-1.49525385386,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-12,2026-04-26,weekly incident influenza cases,2,SE,Sverige,forecast,89,223.199247547,93.1160483837,130.083199163,-1.39700085454,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-19,2026-05-03,weekly incident influenza cases,2,SE,Sverige,forecast,74,179.404045695,83.0749819959,96.3290636991,-1.15954360007,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-26,2026-05-10,weekly incident influenza cases,2,SE,Sverige,forecast,65,165.450423971,74.5799345525,90.8704894185,-1.21843080131,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-05-03,2026-05-17,weekly incident influenza cases,2,SE,Sverige,forecast,53,165.761886807,68.0906781503,97.6712086567,-1.43442849021,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-10,2026-05-24,weekly incident influenza cases,2,SE,Sverige,forecast,53,143.545473109,59.6353666879,83.9101064211,-1.4070527454,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-17,2026-05-31,weekly incident influenza cases,2,SE,Sverige,forecast,30,164.181546139,59.4645950949,104.716951044,-1.76099662122,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2025-12-21,2026-01-11,weekly incident influenza cases,3,SE,Sverige,forecast,1532,1532,341.60869253,1190.39130747,-3.4846633985,false,false,false,false,false,true,2026-08-25T00:00:00Z
-2025-12-28,2026-01-18,weekly incident influenza cases,3,SE,Sverige,forecast,1082,11794.3571988,117.689243905,11676.6679549,-99.2161013824,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-01-04,2026-01-25,weekly incident influenza cases,3,SE,Sverige,forecast,968,6823.74063738,251.126495179,6572.6141422,-26.1725236818,false,false,false,true,true,true,2026-08-25T00:00:00Z
-2026-01-11,2026-02-01,weekly incident influenza cases,3,SE,Sverige,forecast,1107,7999.17018062,349.153329492,7650.01685113,-21.910193044,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-01-18,2026-02-08,weekly incident influenza cases,3,SE,Sverige,forecast,1404,1473.08925985,178.01444286,1295.07481699,-7.275110919,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-25,2026-02-15,weekly incident influenza cases,3,SE,Sverige,forecast,1616,779.383412571,99.2567678878,680.126644683,-6.85219415418,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-01,2026-02-22,weekly incident influenza cases,3,SE,Sverige,forecast,1529,390.511227427,146.813005976,243.698221451,-1.65992256497,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-08,2026-03-01,weekly incident influenza cases,3,SE,Sverige,forecast,1252,562.287306124,127.592232471,434.695073653,-3.40690859651,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-15,2026-03-08,weekly incident influenza cases,3,SE,Sverige,forecast,775,405.48528072,167.30082026,238.18446046,-1.42368973499,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-22,2026-03-15,weekly incident influenza cases,3,SE,Sverige,forecast,475,281.646522772,462.418355238,-180.771832466,0.390927026184,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-01,2026-03-22,weekly incident influenza cases,3,SE,Sverige,forecast,321,291.437968975,734.240453388,-442.802484413,0.603075576087,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-08,2026-03-29,weekly incident influenza cases,3,SE,Sverige,forecast,223,298.042670878,781.940387445,-483.897716567,0.618842208865,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-15,2026-04-05,weekly incident influenza cases,3,SE,Sverige,forecast,187,394.035648401,537.784580152,-143.748931751,0.267298351526,false,false,false,false,true,false,2026-08-25T00:00:00Z
-2026-03-22,2026-04-12,weekly incident influenza cases,3,SE,Sverige,forecast,175,319.968722146,288.66961026,31.299111886,-0.108425378958,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-29,2026-04-19,weekly incident influenza cases,3,SE,Sverige,forecast,106,330.877455971,174.687462282,156.189993689,-0.89411106927,false,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-05,2026-04-26,weekly incident influenza cases,3,SE,Sverige,forecast,89,271.772798907,122.149095012,149.623703895,-1.22492683127,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-12,2026-05-03,weekly incident influenza cases,3,SE,Sverige,forecast,74,275.04833529,100.427361484,174.620973806,-1.73877886689,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-19,2026-05-10,weekly incident influenza cases,3,SE,Sverige,forecast,65,229.464500003,89.5786899129,139.88581009,-1.56159696269,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-26,2026-05-17,weekly incident influenza cases,3,SE,Sverige,forecast,53,234.227957395,81.5279174355,152.70003996,-1.87297854235,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-03,2026-05-24,weekly incident influenza cases,3,SE,Sverige,forecast,53,227.373723317,73.325988491,154.047734826,-2.10086134529,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-10,2026-05-31,weekly incident influenza cases,3,SE,Sverige,forecast,30,222.607008603,68.153706759,154.453301844,-2.26624947034,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-17,2026-06-07,weekly incident influenza cases,3,SE,Sverige,forecast,19,218.513101158,66.2651054038,152.247995754,-2.2975590973,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2025-11-30,2025-11-30,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,21,9.57853186771,6.00316692751,3.5753649402,-0.595579797026,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2025-12-07,2025-12-07,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,38,13.7329613466,8.72370111762,5.00926022898,-0.574212729373,false,false,false,true,false,true,2026-08-25T00:00:00Z
-2025-12-14,2025-12-14,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,76,17.116589966,24.5597782053,-7.4431882393,0.303064147285,false,false,false,false,false,true,2026-08-25T00:00:00Z
-2025-12-21,2025-12-21,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,107,19.2272106487,31.9320673032,-12.7048566545,0.397871410387,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2025-12-28,2025-12-28,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,138,11.3131968488,33.7224777382,-22.4092808894,0.664520592567,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-01-04,2026-01-04,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,190,7.3874639089,51.7359000108,-44.3484361019,0.857208168654,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-01-11,2026-01-11,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,126,84.3691927776,9.45134713956,74.917845638,-7.92668436909,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-01-18,2026-01-18,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,130,19.9991297036,9.78025510716,10.2188745964,-1.04484744871,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-25,2026-01-25,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,133,27.1630864037,8.9668389312,18.1962474725,-2.02928229358,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-02-01,2026-02-01,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,189,75.1639543528,30.0868201852,45.0771341676,-1.4982352369,false,false,false,false,false,true,2026-08-25T00:00:00Z
-2026-02-08,2026-02-08,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,215,18.048711483,33.6345198807,-15.5858083977,0.463387271559,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-02-15,2026-02-15,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,224,18.395501094,19.7952227459,-1.3997216519,0.0707100733277,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-02-22,2026-02-22,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,188,24.3889496832,9.80526052916,14.583689154,-1.48733316271,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-03-01,2026-03-01,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,156,23.3027943477,25.5080757839,-2.2052814362,0.0864542451137,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-08,2026-03-08,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,70,35.39389196,87.8016047516,-52.4077127916,0.596887869417,false,false,false,false,true,false,2026-08-25T00:00:00Z
-2026-03-15,2026-03-15,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,30,8.05993206091,76.1399809216,-68.0800488607,0.894143235087,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-22,2026-03-22,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,25,7.95004821024,30.4991630625,-22.5491148523,0.739335528849,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-29,2026-03-29,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,17,3.26497160893,10.4618265163,-7.19685490737,0.687915718747,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-05,2026-04-05,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,11,2.99307131112,7.84556499092,-4.8524936798,0.618501495484,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-12,2026-04-12,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,9,1.64369261655,6.57740693363,-4.93371431708,0.750100209226,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-19,2026-04-19,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,8,1.63699926073,5.38392409243,-3.7469248317,0.695946816369,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-26,2026-04-26,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,6,1.96328933995,4.9164920204,-2.95320268045,0.600672729295,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-05-03,2026-05-03,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,2,4.15364761037,5.0680961988,-0.91444858843,0.180432366033,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-05-10,2026-05-10,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,7,1.62770502405,4.24357384961,-2.61586882556,0.616430612089,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-05-17,2026-05-17,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,0,5.58658898975,4.6808879245,0.90570106525,-0.193489158437,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2025-12-07,2025-12-14,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,76,18.296336423,25.7027672774,-7.4064308544,0.288156943354,false,false,false,false,false,true,2026-08-25T00:00:00Z
-2025-12-14,2025-12-21,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,107,31.2354205833,41.98786163,-10.7524410467,0.256084511792,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2025-12-21,2025-12-28,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,138,447.485030034,51.7380102203,395.747019814,-7.6490575909,false,false,false,false,true,false,2026-08-25T00:00:00Z
-2025-12-28,2026-01-04,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,190,37.2383585872,75.502755665,-38.2643970778,0.506794708892,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-01-04,2026-01-11,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,126,67.0851415994,11.479971129,55.6051704704,-4.84366814564,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-01-11,2026-01-18,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,130,150.80551563,10.9576491703,139.84786646,-12.7625792984,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-01-18,2026-01-25,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,133,24.8725449727,11.426951524,13.4455934487,-1.17665620795,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-25,2026-02-01,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,189,99.2489192626,17.5028600555,81.7460592071,-4.6704400851,false,false,false,true,false,true,2026-08-25T00:00:00Z
-2026-02-01,2026-02-08,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,215,121.243684548,44.8736674252,76.3700171228,-1.70188935973,false,false,false,false,false,true,2026-08-25T00:00:00Z
-2026-02-08,2026-02-15,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,224,19.3287838313,36.3049646502,-16.9761808189,0.467599431165,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-02-15,2026-02-22,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,188,18.7510135773,10.100000447,8.6510131303,-0.856535915587,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-22,2026-03-01,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,156,36.9661093669,23.0749793908,13.8911299761,-0.601999669895,false,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-03-01,2026-03-08,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,70,70.728707009,97.8735173636,-27.1448103546,0.277345814126,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-08,2026-03-15,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,30,68.7160332484,118.190304738,-49.4742714896,0.418598391799,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-15,2026-03-22,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,25,49.9897905209,71.5224003058,-21.5326097849,0.301061061889,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-22,2026-03-29,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,17,14.1697874371,32.341377389,-18.1715899519,0.561868152161,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-29,2026-04-05,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,11,8.63550058267,12.5894263425,-3.95392575983,0.314067190376,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-05,2026-04-12,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,9,9.03300284792,9.23689664118,-0.20389379326,0.0220738415921,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-12,2026-04-19,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,8,7.91410914361,7.79409423378,0.12001490983,-0.0153981856301,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-19,2026-04-26,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,6,7.8227970204,6.74271713569,1.08007988471,-0.160184664872,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-26,2026-05-03,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,2,10.7043050116,6.56013407881,4.14417093279,-0.631720462266,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-03,2026-05-10,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,7,5.19204093997,5.42507430102,-0.23303336105,0.0429548699464,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-05-10,2026-05-17,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,0,8.85554874327,5.83767247857,3.0178762647,-0.516965670099,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-17,2026-05-24,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,5,4.57107287289,5.03588942112,-0.46481654823,0.0923007852954,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2025-12-14,2025-12-28,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,138,47.020562784,64.7890344791,-17.7684716951,0.274251219176,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2025-12-21,2026-01-04,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,190,48.6004671815,96.670358446,-48.0698912645,0.497255746614,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2025-12-28,2026-01-11,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,126,321.003168667,22.4849024875,298.51826618,-13.2763869599,false,false,false,true,true,true,2026-08-25T00:00:00Z
-2026-01-04,2026-01-18,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,130,343.517519434,13.4989665207,330.018552913,-24.4476903033,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-01-11,2026-01-25,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,133,463.373723706,11.9945170878,451.379206618,-37.6321283562,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-01-18,2026-02-01,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,189,49.6437161253,16.3965181183,33.247198007,-2.02769867158,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-25,2026-02-08,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,215,114.287654015,28.6820375845,85.6056164305,-2.98464208403,false,false,false,true,false,true,2026-08-25T00:00:00Z
-2026-02-01,2026-02-15,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,224,124.96629864,48.6149777508,76.3513208892,-1.57053082037,false,false,false,false,false,true,2026-08-25T00:00:00Z
-2026-02-08,2026-02-22,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,188,26.3958790609,16.253123355,10.1427557059,-0.624049635529,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-15,2026-03-01,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,156,35.5432352009,13.5504249139,21.992810287,-1.62303473336,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-22,2026-03-08,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,70,81.5193093727,91.3688655607,-9.849556188,0.107799917702,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-01,2026-03-15,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,30,96.0896843831,131.057561158,-34.9678767749,0.266813119868,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-08,2026-03-22,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,25,80.4619838261,116.427302055,-35.9653182289,0.308907941643,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-15,2026-03-29,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,17,38.1922920891,72.8160140804,-34.6237219913,0.475495980226,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-22,2026-04-05,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,11,32.3458963021,33.8802733778,-1.5343770757,0.0452882141354,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-29,2026-04-12,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,9,20.3538755024,13.9815435947,6.3723319077,-0.455767409695,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-05,2026-04-19,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,8,19.2428291524,10.1387347457,9.1040944067,-0.897951730176,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-12,2026-04-26,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,6,15.7896851777,8.84572038237,6.94396479533,-0.785008398996,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-19,2026-05-03,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,2,18.6538254446,8.08072148263,10.573103962,-1.30843563718,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-04-26,2026-05-10,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,7,12.7010531833,6.61195513259,6.08909805071,-0.92092246977,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-05-03,2026-05-17,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,0,17.7458980255,7.19061450669,10.5552835188,-1.4679251,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-10,2026-05-24,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,5,11.847920753,5.88828431803,5.95963643497,-1.01211764125,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-05-17,2026-05-31,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,1,13.895413522,6.3715077187,7.5239058033,-1.18086740776,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2025-12-21,2026-01-11,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,126,65.1784647602,36.1847333223,28.9937314379,-0.801269728304,false,false,false,false,true,true,2026-08-25T00:00:00Z
-2025-12-28,2026-01-18,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,130,38.0817811778,24.1523698292,13.9294113486,-0.576730625073,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-04,2026-01-25,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,133,672.848099032,14.9124609003,657.935638132,-44.1198567111,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-01-11,2026-02-01,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,189,999.212586919,19.1362382408,980.076348678,-51.2157267455,false,false,false,true,false,true,2026-08-25T00:00:00Z
-2026-01-18,2026-02-08,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,215,326.717178261,27.5650774181,299.152100843,-10.8525761167,false,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-25,2026-02-15,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,224,104.945058936,33.1081933607,71.8368655753,-2.16976096499,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-02-01,2026-02-22,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,188,170.552664331,25.279142427,145.273521904,-5.74677413696,false,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-08,2026-03-01,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,156,23.6274403847,12.0705488434,11.5568915413,-0.957445406272,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-15,2026-03-08,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,70,79.9032530799,57.1749061971,22.7283468828,-0.39752311625,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-02-22,2026-03-15,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,30,100.959212623,126.556904029,-25.597691406,0.20226230724,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-01,2026-03-22,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,25,102.365727466,131.221727456,-28.85599999,0.219902607209,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-08,2026-03-29,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,17,88.8746410229,119.604536578,-30.7298955551,0.2569291804,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-15,2026-04-05,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,11,45.1347737782,74.1406929318,-29.0059191536,0.39122805583,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-22,2026-04-12,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,9,36.3046155196,33.4239193412,2.8806961784,-0.0861866661714,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-29,2026-04-19,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,8,29.8626360446,14.8721888813,14.9904471633,-1.00795163933,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-05,2026-04-26,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,6,23.6817855498,10.9482625907,12.7335229591,-1.16306334942,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-12,2026-05-03,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,2,26.7764917635,9.95627766328,16.8202141002,-1.68940789611,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-04-19,2026-05-10,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,7,18.844892596,7.91233711083,10.9325554852,-1.38171002221,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-26,2026-05-17,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,0,22.6674282557,8.15866883293,14.5087594228,-1.77832434676,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-03,2026-05-24,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,5,17.4787901595,7.02279585793,10.4559943016,-1.48886490695,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-05-10,2026-05-31,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,1,18.5405257673,7.00586212552,11.5346636418,-1.64643029439,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-17,2026-06-07,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,1,18.5701878856,6.91717600696,11.6530118786,-1.68464874494,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2025-11-30,2025-11-30,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,38,26.3571428571,10.1723229839,16.1848198732,-1.59106429267,false,false,false,true,false,true,2026-08-25T00:00:00Z
-2025-12-07,2025-12-07,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,57,8.32289153468,15.1019031565,-6.77901162182,0.448884591006,false,false,true,true,true,true,2026-08-25T00:00:00Z
-2025-12-14,2025-12-14,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,120,62.5770721408,50.8548398259,11.7222323149,-0.230503770242,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2025-12-21,2025-12-21,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,158,17.8720754025,53.5511517348,-35.6790763323,0.666261605521,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2025-12-28,2025-12-28,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,118,9.87748159333,7.96844071823,1.9090408751,-0.23957521209,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-01-04,2026-01-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,281,238.386192291,116.095249841,122.29094245,-1.05336732224,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2026-01-11,2026-01-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,260,62.6297006771,40.9175272839,21.7121733932,-0.530632587902,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-01-18,2026-01-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,151,123.259172503,35.90353793,87.355634573,-2.43306480669,false,false,false,false,true,true,2026-08-25T00:00:00Z
-2026-01-25,2026-01-25,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,135,53.2119908321,62.0676437493,-8.8556529172,0.142677446448,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-02-01,2026-02-01,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,203,66.3085711286,10.2461315792,56.0624395494,-5.47157130631,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-02-08,2026-02-08,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,230,28.4120884304,34.6162093639,-6.2041209335,0.179225890053,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-02-15,2026-02-15,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,281,35.0702833232,57.8275470344,-22.7572637112,0.39353672909,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-02-22,2026-02-22,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,257,22.9357561199,10.0075241336,12.9282319863,-1.29185119253,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-03-01,2026-03-01,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,185,22.2961484417,37.3880162573,-15.0918678156,0.403655217002,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-08,2026-03-08,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,143,33.8238075205,63.9316476907,-30.1078401702,0.470937966684,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2026-03-15,2026-03-15,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,80,41.4241045841,80.7396975318,-39.3155929477,0.48694253446,false,false,false,false,true,false,2026-08-25T00:00:00Z
-2026-03-22,2026-03-22,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,50,13.5267611849,51.4661016837,-37.9393404988,0.737171444069,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-29,2026-03-29,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,39,9.32258996681,23.5463284315,-14.2237384647,0.604074580293,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-04-05,2026-04-05,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,24,7.61926014094,13.9158435564,-6.29658341546,0.452475869676,false,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-12,2026-04-12,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,27,4.89511634355,8.40350665188,-3.50839030833,0.417491227611,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-19,2026-04-19,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,13,7.85547765888,9.02972615975,-1.17424850087,0.130042537292,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-26,2026-04-26,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,7,6.61415716707,8.04764425504,-1.43348708797,0.178125056543,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-05-03,2026-05-03,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,7,2.71641597353,6.62803710692,-3.91162113339,0.590162829551,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-05-10,2026-05-10,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,7,2.21165963937,4.95812147287,-2.7464618335,0.553931937434,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-05-17,2026-05-17,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,2,5.87643421589,5.16899455307,0.70743966282,-0.136862141284,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2025-12-07,2025-12-14,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,120,48.29438001,54.7116888473,-6.4173088373,0.117293195887,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2025-12-14,2025-12-21,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,158,53.6021904465,76.9592175712,-23.3570271247,0.303498760276,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2025-12-21,2025-12-28,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,118,113.597753382,19.9326490256,93.6651043564,-4.6990795973,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2025-12-28,2026-01-04,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,281,43.1217676992,125.038900681,-81.9171329818,0.655133182839,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-01-04,2026-01-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,260,198.277126579,83.7085935313,114.568533048,-1.3686591569,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2026-01-11,2026-01-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,151,46.9818226047,15.094072761,31.8877498437,-2.11260077705,false,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-18,2026-01-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,135,160.041926648,42.8194905629,117.222436085,-2.73759529934,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-01-25,2026-02-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,203,59.5297178438,13.6043286626,45.9253891812,-3.3757923908,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-01,2026-02-08,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,230,102.402510877,20.8100374617,81.5924734153,-3.92082299542,false,false,false,true,false,true,2026-08-25T00:00:00Z
-2026-02-08,2026-02-15,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,281,112.716019013,72.9400856404,39.7759333726,-0.545323370865,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2026-02-15,2026-02-22,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,257,31.7537733361,30.6634381049,1.0903352312,-0.0355581532465,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-02-22,2026-03-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,185,46.0431809073,22.9538162263,23.089364681,-1.0059052688,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-03-01,2026-03-08,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,143,53.3271773586,67.6985314677,-14.3713541091,0.212284576896,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-08,2026-03-15,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,80,65.6039027166,115.69163338,-50.0877306634,0.432941684719,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-15,2026-03-22,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,50,55.2732469181,99.5097729903,-44.2365260722,0.444544538118,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-22,2026-03-29,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,39,31.0135605773,51.2859942143,-20.272433637,0.395282063799,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-29,2026-04-05,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,24,19.6560426659,29.6796047512,-10.0235620853,0.337725592013,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-04-05,2026-04-12,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,27,16.443503694,13.5946294852,2.8488742088,-0.209558797605,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-12,2026-04-19,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,13,17.1964787865,12.266634559,4.9298442275,-0.401890527005,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-19,2026-04-26,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,7,20.5863922301,11.4695649411,9.116827289,-0.794871238431,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-26,2026-05-03,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,7,13.1397985842,9.29938904982,3.84040953438,-0.412974391522,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-05-03,2026-05-10,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,7,8.78088878052,7.87907876789,0.90181001263,-0.114456275816,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-05-10,2026-05-17,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,2,12.4606040831,6.9224753322,5.5381287509,-0.800021449717,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-17,2026-05-24,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,6,6.8347633346,5.84659898533,0.98816434927,-0.169015243178,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2025-12-14,2025-12-28,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,118,110.956888764,36.0387694297,74.9181193343,-2.07882012954,false,false,false,false,false,true,2026-08-25T00:00:00Z
-2025-12-21,2026-01-04,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,281,221.087980955,155.997249254,65.090731701,-0.417255637598,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2025-12-28,2026-01-11,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,260,13.4597229012,95.0899476252,-81.630224724,0.858452725684,false,false,false,false,true,false,2026-08-25T00:00:00Z
-2026-01-04,2026-01-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,151,34.9394711423,14.1421609376,20.7973102047,-1.47058927532,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-11,2026-01-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,135,889.70741494,21.9995105243,867.707904416,-39.4421459267,false,false,false,true,false,true,2026-08-25T00:00:00Z
-2026-01-18,2026-02-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,203,194.096289501,14.0003516952,180.095937806,-12.8636724081,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-25,2026-02-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,230,57.7753750276,11.7047033341,46.0706716935,-3.93608196453,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-01,2026-02-15,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,281,195.899490812,49.4918556559,146.407635156,-2.95821672507,false,false,false,false,false,true,2026-08-25T00:00:00Z
-2026-02-08,2026-02-22,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,257,166.199448524,45.9389846336,120.26046389,-2.61783025571,false,false,false,false,false,true,2026-08-25T00:00:00Z
-2026-02-15,2026-03-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,185,27.6133408119,12.2045221656,15.4088186463,-1.26254993331,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-22,2026-03-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,143,45.5807338082,46.6363007199,-1.0555669117,0.0226340188953,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-01,2026-03-15,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,80,52.6467334811,121.806937842,-69.1602043609,0.567785428205,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-08,2026-03-22,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,50,54.9561775188,136.857809808,-81.9016322892,0.598443248537,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-15,2026-03-29,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,39,61.520578653,101.775635612,-40.255056959,0.395527443449,true,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-22,2026-04-05,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,24,56.8755275921,58.5774677356,-1.7019401435,0.0290545189011,true,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-29,2026-04-12,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,27,36.2846015739,27.5327936575,8.7518079164,-0.317868503475,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-05,2026-04-19,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,13,27.5758127029,17.8325582659,9.743254437,-0.54637446247,false,false,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-12,2026-04-26,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,7,24.2979990066,14.3717036785,9.9262953281,-0.690683272502,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-19,2026-05-03,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,7,24.7123698867,12.4557442293,12.2566256574,-0.984013916131,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-26,2026-05-10,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,7,21.5144338751,10.2863968019,11.2280370732,-1.09154228535,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-05-03,2026-05-17,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,2,24.9759894326,9.57991481549,15.3960746171,-1.6071202003,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-10,2026-05-24,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,6,19.8174399703,7.33710429287,12.4803356774,-1.70098927033,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-05-17,2026-05-31,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,2,23.5131467696,7.40333900376,16.1098077658,-2.17601919319,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2025-12-21,2026-01-11,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,260,256.969783848,127.447683869,129.522099979,-1.01627660893,false,false,false,false,false,false,2026-08-25T00:00:00Z
-2025-12-28,2026-01-18,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,151,10.7934898323,18.4500639663,-7.656574134,0.414989029197,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-04,2026-01-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,135,244.36681783,13.395733618,230.971084212,-17.2421377431,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-01-11,2026-02-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,203,266.251628018,15.6033552721,250.648272746,-16.0637419565,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-01-18,2026-02-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,230,109.678462473,14.6915264018,94.9869360712,-6.46542322924,true,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-01-25,2026-02-15,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,281,72.2711027651,21.8973045371,50.373798228,-2.30045657641,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-01,2026-02-22,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,257,56.0432082941,32.4684226368,23.5747856573,-0.726083491059,true,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-08,2026-03-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,185,31.2991231787,16.3256182487,14.97350493,-0.917178430973,false,true,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-15,2026-03-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,143,42.5326537278,20.1821171292,22.3505365986,-1.10744261643,false,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-02-22,2026-03-15,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,80,86.4911274719,96.6158704021,-10.1247429302,0.10479378686,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-01,2026-03-22,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,50,101.255178096,144.600350346,-43.34517225,0.299758417917,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-08,2026-03-29,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,39,104.851961195,140.65208216,-35.800120965,0.254529619578,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-15,2026-04-05,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,24,82.1171175388,109.681945533,-27.5648279942,0.251316001556,false,false,true,false,true,false,2026-08-25T00:00:00Z
-2026-03-22,2026-04-12,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,27,51.074684882,53.7061792065,-2.6314943245,0.0489979805561,false,false,true,false,true,true,2026-08-25T00:00:00Z
-2026-03-29,2026-04-19,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,13,43.5172127338,33.4637718374,10.0534408964,-0.300427607063,false,false,true,true,true,true,2026-08-25T00:00:00Z
-2026-04-05,2026-04-26,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,7,41.8895734195,20.0497997271,21.8397736924,-1.08927640124,false,false,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-12,2026-05-03,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,7,35.5547776163,15.1564991847,20.3982784316,-1.34584366634,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-19,2026-05-10,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,7,32.9027725076,13.2496061308,19.6531663768,-1.48330193236,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-04-26,2026-05-17,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,2,33.273660973,11.7991353862,21.4745255868,-1.82000840603,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-03,2026-05-24,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,6,26.0842086541,9.80802904878,16.2761796053,-1.65947506113,false,true,false,true,true,true,2026-08-25T00:00:00Z
-2026-05-10,2026-05-31,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,2,25.5411767822,8.70778131184,16.8333954704,-1.93314403147,false,true,false,true,false,true,2026-08-25T00:00:00Z
-2026-05-17,2026-06-07,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,2,25.5953821438,8.20223371152,17.3931484323,-2.12053801977,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2025-11-30,2025-11-30,weekly incident influenza cases,0,SE,Sverige,nowcast,376,110.812298309,101.420359958,9.391938351,-0.0926040723469,false,false,false,true,false,true,2026-08-25T00:00:00Z
+2025-12-07,2025-12-07,weekly incident influenza cases,0,SE,Sverige,nowcast,717,129.92834467,256.745274495,-126.816929825,0.49394065801,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2025-12-14,2025-12-14,weekly incident influenza cases,0,SE,Sverige,nowcast,1325,226.07086332,650.189813689,-424.118950369,0.652300207477,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2025-12-21,2025-12-21,weekly incident influenza cases,0,SE,Sverige,nowcast,1638,627.238091178,580.540397657,46.697693521,-0.0804383186932,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2025-12-28,2025-12-28,weekly incident influenza cases,0,SE,Sverige,nowcast,1682,807.59353411,225.846630759,581.746903351,-2.57584937794,false,false,false,false,true,true,2026-08-25T00:00:00Z
+2026-01-04,2026-01-04,weekly incident influenza cases,0,SE,Sverige,nowcast,2227,333.740981999,424.79671774,-91.055735741,0.214351316614,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-01-11,2026-01-11,weekly incident influenza cases,0,SE,Sverige,nowcast,1532,632.683687727,137.207087861,495.476599866,-3.61115892473,false,false,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-18,2026-01-18,weekly incident influenza cases,0,SE,Sverige,nowcast,1082,102.027743913,476.497126841,-374.469382928,0.785879624103,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-01-25,2026-01-25,weekly incident influenza cases,0,SE,Sverige,nowcast,968,187.588877496,389.051167251,-201.462289755,0.517829804184,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-02-01,2026-02-01,weekly incident influenza cases,0,SE,Sverige,nowcast,1107,366.22679371,67.6931899057,298.533603804,-4.41009803527,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-02-08,2026-02-08,weekly incident influenza cases,0,SE,Sverige,nowcast,1404,388.262070389,152.076737938,236.185332451,-1.55306679807,false,false,false,true,true,true,2026-08-25T00:00:00Z
+2026-02-15,2026-02-15,weekly incident influenza cases,0,SE,Sverige,nowcast,1616,296.086842311,224.933219391,71.15362292,-0.316332212346,false,false,false,false,true,true,2026-08-25T00:00:00Z
+2026-02-22,2026-02-22,weekly incident influenza cases,0,SE,Sverige,nowcast,1529,166.052982124,77.2391697533,88.8138123707,-1.14985457061,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-03-01,2026-03-01,weekly incident influenza cases,0,SE,Sverige,nowcast,1252,103.161040596,114.650154857,-11.489114261,0.100210194006,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-03-08,2026-03-08,weekly incident influenza cases,0,SE,Sverige,nowcast,775,136.626041862,432.859572434,-296.233530572,0.684364051155,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-15,2026-03-15,weekly incident influenza cases,0,SE,Sverige,nowcast,475,98.383060115,451.297814677,-352.914754562,0.781999697505,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-03-22,2026-03-22,weekly incident influenza cases,0,SE,Sverige,nowcast,321,66.1855504071,264.335600212,-198.150049805,0.749615449625,true,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-29,2026-03-29,weekly incident influenza cases,0,SE,Sverige,nowcast,223,51.4428970079,130.013668958,-78.5707719501,0.604327010997,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-05,2026-04-05,weekly incident influenza cases,0,SE,Sverige,nowcast,187,42.3805680677,75.5662842105,-33.1857161428,0.439160354244,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-12,2026-04-12,weekly incident influenza cases,0,SE,Sverige,nowcast,175,39.8473713667,60.1102071894,-20.2628358227,0.337094759279,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-19,2026-04-19,weekly incident influenza cases,0,SE,Sverige,nowcast,106,36.7102493993,61.2404732533,-24.530223854,0.400555752607,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-26,2026-04-26,weekly incident influenza cases,0,SE,Sverige,nowcast,89,28.2114908926,54.2000715768,-25.9885806842,0.479493475343,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-05-03,2026-05-03,weekly incident influenza cases,0,SE,Sverige,nowcast,74,26.8046510554,48.1518580525,-21.3472069971,0.44333090893,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-05-10,2026-05-10,weekly incident influenza cases,0,SE,Sverige,nowcast,65,21.5363172231,40.9959053264,-19.4595881033,0.474671505565,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-05-17,2026-05-17,weekly incident influenza cases,0,SE,Sverige,nowcast,53,21.3468395892,39.2680036133,-17.9211640241,0.456380828539,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2025-12-07,2025-12-14,weekly incident influenza cases,1,SE,Sverige,forecast,1325,578.658570192,764.62829452,-185.969724328,0.243215854894,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2025-12-14,2025-12-21,weekly incident influenza cases,1,SE,Sverige,forecast,1638,463.715350567,874.567520937,-410.85217037,0.469777530647,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2025-12-21,2025-12-28,weekly incident influenza cases,1,SE,Sverige,forecast,1682,678.514516937,538.125466705,140.389050232,-0.260885349083,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2025-12-28,2026-01-04,weekly incident influenza cases,1,SE,Sverige,forecast,2227,617.720460142,659.251175859,-41.530715717,0.0629968018834,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-01-04,2026-01-11,weekly incident influenza cases,1,SE,Sverige,forecast,1532,340.689819988,75.8072745664,264.882545422,-3.49415734752,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-11,2026-01-18,weekly incident influenza cases,1,SE,Sverige,forecast,1082,1068.29785812,422.382249253,645.915608867,-1.52922053427,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-01-18,2026-01-25,weekly incident influenza cases,1,SE,Sverige,forecast,968,120.093379398,501.377279148,-381.28389975,0.7604730322,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-01-25,2026-02-01,weekly incident influenza cases,1,SE,Sverige,forecast,1107,336.913079059,226.477211844,110.435867215,-0.487624632588,false,false,false,false,true,true,2026-08-25T00:00:00Z
+2026-02-01,2026-02-08,weekly incident influenza cases,1,SE,Sverige,forecast,1404,661.593959974,104.353221236,557.240738738,-5.33994765219,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-02-08,2026-02-15,weekly incident influenza cases,1,SE,Sverige,forecast,1616,551.283158059,266.561251298,284.721906761,-1.06812939005,false,false,false,false,true,true,2026-08-25T00:00:00Z
+2026-02-15,2026-02-22,weekly incident influenza cases,1,SE,Sverige,forecast,1529,233.442746685,160.120548318,73.322198367,-0.457918731463,false,false,false,true,true,true,2026-08-25T00:00:00Z
+2026-02-22,2026-03-01,weekly incident influenza cases,1,SE,Sverige,forecast,1252,115.253831855,92.1159612648,23.1378705902,-0.2511819914,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-03-01,2026-03-08,weekly incident influenza cases,1,SE,Sverige,forecast,775,157.731344343,394.217266752,-236.485922409,0.599887276266,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-03-08,2026-03-15,weekly incident influenza cases,1,SE,Sverige,forecast,475,350.750642493,643.842362713,-293.09172022,0.455222795507,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-15,2026-03-22,weekly incident influenza cases,1,SE,Sverige,forecast,321,155.330653162,516.572243969,-361.241590807,0.699305073055,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-22,2026-03-29,weekly incident influenza cases,1,SE,Sverige,forecast,223,79.8845209911,299.300847583,-219.416326592,0.733096242005,true,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-29,2026-04-05,weekly incident influenza cases,1,SE,Sverige,forecast,187,56.4064253403,144.549394339,-88.1429689987,0.609777504788,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-05,2026-04-12,weekly incident influenza cases,1,SE,Sverige,forecast,175,40.6435726629,91.7392847079,-51.095712045,0.556966540645,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-12,2026-04-19,weekly incident influenza cases,1,SE,Sverige,forecast,106,41.3652800284,83.4657683344,-42.100488306,0.504404250343,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-19,2026-04-26,weekly incident influenza cases,1,SE,Sverige,forecast,89,39.0188539622,73.6991048667,-34.6802509045,0.470565429081,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-26,2026-05-03,weekly incident influenza cases,1,SE,Sverige,forecast,74,30.2624310409,66.0615109229,-35.799079882,0.541905254389,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-05-03,2026-05-10,weekly incident influenza cases,1,SE,Sverige,forecast,65,27.8978264525,59.1483379986,-31.2505115461,0.528341329673,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-05-10,2026-05-17,weekly incident influenza cases,1,SE,Sverige,forecast,53,23.0075392497,52.4127429772,-29.4052037275,0.561031574712,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-05-17,2026-05-24,weekly incident influenza cases,1,SE,Sverige,forecast,53,21.1865344643,48.9621576201,-27.7756231558,0.567287564639,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2025-12-14,2025-12-28,weekly incident influenza cases,2,SE,Sverige,forecast,1682,513.426493638,850.92516096,-337.498667322,0.396625558635,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2025-12-21,2026-01-04,weekly incident influenza cases,2,SE,Sverige,forecast,2227,541.044146817,1018.6898896,-477.645742783,0.468882382813,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2025-12-28,2026-01-11,weekly incident influenza cases,2,SE,Sverige,forecast,1532,1360.09973372,133.003981164,1227.09575256,-9.22600768651,false,false,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-04,2026-01-18,weekly incident influenza cases,2,SE,Sverige,forecast,1082,621.269591713,202.018659132,419.250932581,-2.07530796602,false,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-11,2026-01-25,weekly incident influenza cases,2,SE,Sverige,forecast,968,1258.44240417,468.934512169,789.507892001,-1.68362078609,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-01-18,2026-02-01,weekly incident influenza cases,2,SE,Sverige,forecast,1107,104.426014469,343.250497916,-238.824483447,0.695773159535,true,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-01-25,2026-02-08,weekly incident influenza cases,2,SE,Sverige,forecast,1404,607.751723579,118.291027829,489.46069575,-4.13776686815,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-02-01,2026-02-15,weekly incident influenza cases,2,SE,Sverige,forecast,1616,962.71856073,183.042819038,779.675741692,-4.25952651838,false,false,false,true,false,true,2026-08-25T00:00:00Z
+2026-02-08,2026-02-22,weekly incident influenza cases,2,SE,Sverige,forecast,1529,498.578953357,206.474472854,292.104480503,-1.41472442799,false,false,false,true,true,true,2026-08-25T00:00:00Z
+2026-02-15,2026-03-01,weekly incident influenza cases,2,SE,Sverige,forecast,1252,119.450476761,101.830435686,17.620041075,-0.17303315022,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-22,2026-03-08,weekly incident influenza cases,2,SE,Sverige,forecast,775,151.19347548,266.989359271,-115.795883791,0.433709733254,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-01,2026-03-15,weekly incident influenza cases,2,SE,Sverige,forecast,475,333.803114122,628.03331303,-294.230198908,0.468494573144,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-08,2026-03-22,weekly incident influenza cases,2,SE,Sverige,forecast,321,460.594430053,731.740204232,-271.145774179,0.370549236752,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-15,2026-03-29,weekly incident influenza cases,2,SE,Sverige,forecast,223,224.952003593,549.09750079,-324.145497197,0.590324116811,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-22,2026-04-05,weekly incident influenza cases,2,SE,Sverige,forecast,187,94.050601611,299.074500226,-205.023898615,0.685527848279,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-29,2026-04-12,weekly incident influenza cases,2,SE,Sverige,forecast,175,58.0071064262,147.424530278,-89.4174238518,0.606530159419,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-05,2026-04-19,weekly incident influenza cases,2,SE,Sverige,forecast,106,48.7936184431,112.264116988,-63.4704985449,0.565367637031,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-12,2026-04-26,weekly incident influenza cases,2,SE,Sverige,forecast,89,43.7255281881,93.1160483837,-49.3905201956,0.530418988487,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-19,2026-05-03,weekly incident influenza cases,2,SE,Sverige,forecast,74,41.0633667739,83.0749819959,-42.011615222,0.505707184193,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-26,2026-05-10,weekly incident influenza cases,2,SE,Sverige,forecast,65,31.4749856078,74.5799345525,-43.1049489447,0.577969787763,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-05-03,2026-05-17,weekly incident influenza cases,2,SE,Sverige,forecast,53,29.4608426127,68.0906781503,-38.6298355376,0.567329281878,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-05-10,2026-05-24,weekly incident influenza cases,2,SE,Sverige,forecast,53,22.8154955181,59.6353666879,-36.8198711698,0.617416697754,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-05-17,2026-05-31,weekly incident influenza cases,2,SE,Sverige,forecast,30,24.3427188501,59.4645950949,-35.1218762448,0.590635086117,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2025-12-21,2026-01-11,weekly incident influenza cases,3,SE,Sverige,forecast,1532,911.178357994,341.60869253,569.569665464,-1.66731607807,false,false,false,false,true,true,2026-08-25T00:00:00Z
+2025-12-28,2026-01-18,weekly incident influenza cases,3,SE,Sverige,forecast,1082,2121.26658163,117.689243905,2003.57733773,-17.024302912,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-04,2026-01-25,weekly incident influenza cases,3,SE,Sverige,forecast,968,766.387717768,251.126495179,515.261222589,-2.05179952128,false,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-11,2026-02-01,weekly incident influenza cases,3,SE,Sverige,forecast,1107,1256.80316367,349.153329492,907.649834178,-2.59957376176,false,false,false,false,true,true,2026-08-25T00:00:00Z
+2026-01-18,2026-02-08,weekly incident influenza cases,3,SE,Sverige,forecast,1404,146.463293271,178.01444286,-31.551149589,0.177239268242,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-25,2026-02-15,weekly incident influenza cases,3,SE,Sverige,forecast,1616,887.526517659,99.2567678878,788.269749771,-7.94172293281,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-02-01,2026-02-22,weekly incident influenza cases,3,SE,Sverige,forecast,1529,933.279279284,146.813005976,786.466273308,-5.35692507676,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-02-08,2026-03-01,weekly incident influenza cases,3,SE,Sverige,forecast,1252,308.420439996,127.592232471,180.828207525,-1.41723523465,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-02-15,2026-03-08,weekly incident influenza cases,3,SE,Sverige,forecast,775,114.665668454,167.30082026,-52.635151806,0.314613829892,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-22,2026-03-15,weekly incident influenza cases,3,SE,Sverige,forecast,475,346.760088184,462.418355238,-115.658267054,0.250116081561,false,false,false,false,true,true,2026-08-25T00:00:00Z
+2026-03-01,2026-03-22,weekly incident influenza cases,3,SE,Sverige,forecast,321,444.557655548,734.240453388,-289.68279784,0.394533965683,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-08,2026-03-29,weekly incident influenza cases,3,SE,Sverige,forecast,223,530.442927218,781.940387445,-251.497460227,0.321632523739,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-15,2026-04-05,weekly incident influenza cases,3,SE,Sverige,forecast,187,250.368500108,537.784580152,-287.416080044,0.534444628298,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-22,2026-04-12,weekly incident influenza cases,3,SE,Sverige,forecast,175,99.0577085836,288.66961026,-189.611901676,0.656847464843,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-29,2026-04-19,weekly incident influenza cases,3,SE,Sverige,forecast,106,68.9830766389,174.687462282,-105.704385643,0.605105737196,false,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-05,2026-04-26,weekly incident influenza cases,3,SE,Sverige,forecast,89,51.1478769937,122.149095012,-71.0012180183,0.581266836331,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-12,2026-05-03,weekly incident influenza cases,3,SE,Sverige,forecast,74,45.7861542892,100.427361484,-54.6412071948,0.544086854293,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-19,2026-05-10,weekly incident influenza cases,3,SE,Sverige,forecast,65,42.2684620718,89.5786899129,-47.3102278411,0.52814154669,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-26,2026-05-17,weekly incident influenza cases,3,SE,Sverige,forecast,53,33.1310411292,81.5279174355,-48.3968763063,0.5936233603,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-05-03,2026-05-24,weekly incident influenza cases,3,SE,Sverige,forecast,53,29.3419334901,73.325988491,-43.9840550009,0.599842646599,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-05-10,2026-05-31,weekly incident influenza cases,3,SE,Sverige,forecast,30,25.9633260218,68.153706759,-42.1903807372,0.619047484628,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-05-17,2026-06-07,weekly incident influenza cases,3,SE,Sverige,forecast,19,27.7897907564,66.2651054038,-38.4753146474,0.580627079863,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2025-11-30,2025-11-30,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,21,2.42541465545,6.00316692751,-3.57775227206,0.595977475766,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2025-12-07,2025-12-07,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,38,5.39121930393,8.72370111762,-3.33248181369,0.382003208129,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2025-12-14,2025-12-14,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,76,11.8758353537,24.5597782053,-12.6839428516,0.516451848448,true,false,true,false,true,true,2026-08-25T00:00:00Z
+2025-12-21,2025-12-21,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,107,29.1337823425,31.9320673032,-2.7982849607,0.0876324396454,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2025-12-28,2025-12-28,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,138,32.3900553369,33.7224777382,-1.3324224013,0.0395114027992,true,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-01-04,2026-01-04,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,190,31.2799133929,51.7359000108,-20.4559866179,0.39539249561,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-01-11,2026-01-11,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,126,79.0431446607,9.45134713956,69.5917975211,-7.36316172642,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-18,2026-01-18,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,130,31.962794785,9.78025510716,22.1825396778,-2.26809417902,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-25,2026-01-25,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,133,32.6943567158,8.9668389312,23.7275177846,-2.64614073774,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-01,2026-02-01,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,189,43.9816589521,30.0868201852,13.8948387669,-0.461824768499,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-02-08,2026-02-08,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,215,45.3237747789,33.6345198807,11.6892548982,-0.347537438907,true,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-02-15,2026-02-15,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,224,45.706296281,19.7952227459,25.9110735351,-1.30895589647,true,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-02-22,2026-02-22,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,188,43.2881889544,9.80526052916,33.4829284252,-3.41479232761,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-03-01,2026-03-01,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,156,47.6612105872,25.5080757839,22.1531348033,-0.868475340554,true,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-08,2026-03-08,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,70,81.5369041517,87.8016047516,-6.2647005999,0.0713506389504,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-15,2026-03-15,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,30,57.890881089,76.1399809216,-18.2490998326,0.239678282181,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-22,2026-03-22,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,25,43.3791771958,30.4991630625,12.8800141333,-0.422307133704,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-29,2026-03-29,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,17,40.0086493401,10.4618265163,29.5468228238,-2.82425088753,false,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-05,2026-04-05,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,11,35.2945671764,7.84556499092,27.4490021855,-3.49866481474,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-12,2026-04-12,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,9,32.2996369665,6.57740693363,25.7222300329,-3.91069463885,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-19,2026-04-19,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,8,29.5509646315,5.38392409243,24.1670405391,-4.48874094883,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-26,2026-04-26,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,6,29.0347844784,4.9164920204,24.118292458,-4.90558966798,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-03,2026-05-03,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,2,30.7323781304,5.0680961988,25.6642819316,-5.06389005356,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-05-10,2026-05-10,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,7,20.9177235774,4.24357384961,16.6741497278,-3.92927054382,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-17,2026-05-17,weekly incident influenza cases,0,SE-M,Region Skåne,nowcast,0,26.9312123546,4.6808879245,22.2503244301,-4.75344096868,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2025-12-07,2025-12-14,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,76,23.5768704096,25.7027672774,-2.1258968678,0.0827108164991,false,false,false,false,true,true,2026-08-25T00:00:00Z
+2025-12-14,2025-12-21,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,107,24.1904398915,41.98786163,-17.7974217385,0.42387063898,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2025-12-21,2025-12-28,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,138,20.145825572,51.7380102203,-31.5921846483,0.61061847013,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2025-12-28,2026-01-04,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,190,30.7584066689,75.502755665,-44.7443489961,0.592618754137,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-01-04,2026-01-11,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,126,42.2714627872,11.479971129,30.7914916582,-2.68219242995,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-11,2026-01-18,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,130,90.5340653685,10.9576491703,79.5764161982,-7.26217959358,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-18,2026-01-25,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,133,32.082402761,11.426951524,20.655451237,-1.80760819661,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-25,2026-02-01,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,189,44.188594409,17.5028600555,26.6857343535,-1.52464992972,false,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-01,2026-02-08,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,215,56.7706648129,44.8736674252,11.8969973877,-0.265122020783,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-02-08,2026-02-15,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,224,47.021566698,36.3049646502,10.7166020478,-0.295182825574,true,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-02-15,2026-02-22,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,188,40.6779800773,10.100000447,30.5779796303,-3.02752260168,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-22,2026-03-01,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,156,48.0511465388,23.0749793908,24.976167148,-1.08239174237,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-03-01,2026-03-08,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,70,74.2436842968,97.8735173636,-23.6298330668,0.241432347619,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-08,2026-03-15,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,30,110.055779798,118.190304738,-8.13452494,0.0688256533227,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-15,2026-03-22,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,25,61.4025061584,71.5224003058,-10.1198941474,0.141492652709,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-22,2026-03-29,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,17,46.7839678454,32.341377389,14.4425904564,-0.446566956091,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-29,2026-04-05,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,11,42.5668814704,12.5894263425,29.9774551279,-2.38116132637,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-05,2026-04-12,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,9,36.1384922208,9.23689664118,26.9015955796,-2.91240625771,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-12,2026-04-19,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,8,32.9913645703,7.79409423378,25.1972703365,-3.23286703762,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-19,2026-04-26,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,6,30.9701527834,6.74271713569,24.2274356477,-3.59312650378,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-26,2026-05-03,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,2,32.4569072246,6.56013407881,25.8967731458,-3.94759814886,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-05-03,2026-05-10,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,7,26.5798852803,5.42507430102,21.1548109793,-3.89945092094,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-10,2026-05-17,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,0,27.0552970909,5.83767247857,21.2176246123,-3.634603464,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-05-17,2026-05-24,weekly incident influenza cases,1,SE-M,Region Skåne,forecast,5,22.2084808903,5.03588942112,17.1725914692,-3.41004141139,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2025-12-14,2025-12-28,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,138,42.7111140116,64.7890344791,-22.0779204675,0.340766314007,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2025-12-21,2026-01-04,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,190,27.2954768677,96.670358446,-69.3748815783,0.717643781336,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2025-12-28,2026-01-11,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,126,65.2589279929,22.4849024875,42.7740255054,-1.9023442743,false,false,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-04,2026-01-18,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,130,52.9351400847,13.4989665207,39.436173564,-2.92142168836,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-11,2026-01-25,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,133,103.632745219,11.9945170878,91.6382281312,-7.64000980285,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-18,2026-02-01,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,189,39.8469239804,16.3965181183,23.4504058621,-1.4302064434,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-25,2026-02-08,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,215,56.3846876744,28.6820375845,27.7026500899,-0.965853629063,false,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-01,2026-02-15,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,224,61.9438983716,48.6149777508,13.3289206208,-0.274173130123,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-02-08,2026-02-22,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,188,42.2307638803,16.253123355,25.9776405253,-1.5983168255,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-15,2026-03-01,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,156,44.2571950111,13.5504249139,30.7067700972,-2.26611123211,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-22,2026-03-08,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,70,83.9503588677,91.3688655607,-7.418506693,0.0811929386173,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-01,2026-03-15,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,30,102.816761393,131.057561158,-28.240799765,0.215483940915,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-08,2026-03-22,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,25,113.578777449,116.427302055,-2.848524606,0.0244661222559,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-15,2026-03-29,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,17,67.0752588868,72.8160140804,-5.7407551936,0.0788391848428,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-22,2026-04-05,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,11,49.342625208,33.8802733778,15.4623518302,-0.456382144789,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-29,2026-04-12,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,9,43.4169417836,13.9815435947,29.4353981889,-2.10530389506,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-05,2026-04-19,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,8,36.8441734466,10.1387347457,26.7054387009,-2.6340011225,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-12,2026-04-26,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,6,34.4073578575,8.84572038237,25.5616374751,-2.88971800715,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-19,2026-05-03,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,2,34.3919594341,8.08072148263,26.3112379515,-3.25605059004,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-04-26,2026-05-10,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,7,28.308906763,6.61195513259,21.6969516304,-3.28147290708,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-03,2026-05-17,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,0,32.7148491233,7.19061450669,25.5242346166,-3.54965971168,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-05-10,2026-05-24,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,5,22.3383841175,5.88828431803,16.4500997995,-2.79369998305,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-17,2026-05-31,weekly incident influenza cases,2,SE-M,Region Skåne,forecast,1,25.9158680959,6.3715077187,19.5443603772,-3.06746240295,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2025-12-21,2026-01-11,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,126,33.8510670696,36.1847333223,-2.3336662527,0.0644931173574,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2025-12-28,2026-01-18,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,130,97.620422589,24.1523698292,73.4680527598,-3.04185689766,false,false,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-04,2026-01-25,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,133,67.8380441511,14.9124609003,52.9255832508,-3.54908446062,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-11,2026-02-01,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,189,81.0014658056,19.1362382408,61.8652275648,-3.23288343228,false,false,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-18,2026-02-08,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,215,43.3849243542,27.5650774181,15.8198469361,-0.573909033381,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-25,2026-02-15,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,224,61.078648937,33.1081933607,27.9704555763,-0.844819748138,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-02-01,2026-02-22,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,188,47.5674524672,25.279142427,22.2883100402,-0.881687743347,false,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-08,2026-03-01,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,156,38.7227268213,12.0705488434,26.6521779779,-2.2080336465,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-15,2026-03-08,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,70,76.4977016808,57.1749061971,19.3227954837,-0.337959373595,false,false,false,false,true,true,2026-08-25T00:00:00Z
+2026-02-22,2026-03-15,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,30,112.778111111,126.556904029,-13.778792918,0.108874288793,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-01,2026-03-22,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,25,106.389841625,131.221727456,-24.831885831,0.189236083935,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-08,2026-03-29,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,17,119.248313279,119.604536578,-0.356223299,0.00297834270498,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-15,2026-04-05,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,11,71.3321288927,74.1406929318,-2.8085640391,0.0378815455864,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-22,2026-04-12,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,9,50.192909429,33.4239193412,16.7689900878,-0.501706275575,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-29,2026-04-19,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,8,44.1274262892,14.8721888813,29.2552374079,-1.96711039924,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-05,2026-04-26,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,6,38.2671435556,10.9482625907,27.3188809649,-2.4952708924,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-12,2026-05-03,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,2,37.8300734871,9.95627766328,27.8737958238,-2.79962017598,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-04-19,2026-05-10,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,7,30.244225298,7.91233711083,22.3318881872,-2.82241364016,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-26,2026-05-17,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,0,34.4476617048,8.15866883293,26.2889928719,-3.22221595339,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-05-03,2026-05-24,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,5,27.9940932579,7.02279585793,20.9712974,-2.986174997,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-10,2026-05-31,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,1,26.0519051643,7.00586212552,19.0460430388,-2.7185866204,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-05-17,2026-06-07,weekly incident influenza cases,3,SE-M,Region Skåne,forecast,1,25.9102234402,6.91717600696,18.9930474332,-2.74578056336,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2025-11-30,2025-11-30,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,38,6.23612062524,10.1723229839,-3.93620235866,0.386952160769,false,false,false,true,true,true,2026-08-25T00:00:00Z
+2025-12-07,2025-12-07,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,57,7.98777080328,15.1019031565,-7.11413235322,0.47107522009,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2025-12-14,2025-12-14,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,120,22.2254424816,50.8548398259,-28.6293973443,0.562963081632,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2025-12-21,2025-12-21,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,158,48.7905667645,53.5511517348,-4.7605849703,0.0888979007188,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2025-12-28,2025-12-28,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,118,97.3193070254,7.96844071823,89.3508663072,-11.2130929333,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-04,2026-01-04,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,281,54.6596851703,116.095249841,-61.4355646707,0.529182414912,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-01-11,2026-01-11,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,260,34.2713798459,40.9175272839,-6.646147438,0.162427885534,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-01-18,2026-01-18,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,151,54.8941558384,35.90353793,18.9906179084,-0.528934444996,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-01-25,2026-01-25,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,135,31.4087735695,62.0676437493,-30.6588701798,0.493958982939,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-02-01,2026-02-01,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,203,54.206549281,10.2461315792,43.9604177018,-4.29044048107,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-08,2026-02-08,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,230,45.5868584051,34.6162093639,10.9706490412,-0.316922310178,true,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-02-15,2026-02-15,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,281,52.2391739431,57.8275470344,-5.5883730913,0.0966385983479,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-02-22,2026-02-22,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,257,48.4267651906,10.0075241336,38.419241057,-3.83903556405,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-03-01,2026-03-01,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,185,51.9236532768,37.3880162573,14.5356370195,-0.388777968841,true,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-08,2026-03-08,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,143,47.1046657401,63.9316476907,-16.8269819506,0.263202694728,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-03-15,2026-03-15,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,80,54.8332481112,80.7396975318,-25.9064494206,0.320863840373,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-03-22,2026-03-22,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,50,45.6306070085,51.4661016837,-5.8354946752,0.113385208599,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-03-29,2026-03-29,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,39,39.3459729487,23.5463284315,15.7996445172,-0.67100246916,true,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-04-05,2026-04-05,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,24,35.0379232426,13.9158435564,21.1220796862,-1.51784400282,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-12,2026-04-12,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,27,30.2323552743,8.40350665188,21.8288486224,-2.59758806968,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-19,2026-04-19,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,13,31.0185722887,9.02972615975,21.988846129,-2.43516201266,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-26,2026-04-26,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,7,29.4122861564,8.04764425504,21.3646419014,-2.65476967225,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-03,2026-05-03,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,7,26.7804743097,6.62803710692,20.1524372028,-3.04048346104,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-10,2026-05-10,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,7,21.9688702552,4.95812147287,17.0107487823,-3.43088584566,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-17,2026-05-17,weekly incident influenza cases,0,SE-O,Västra Götalandsregionen,nowcast,2,24.9277282711,5.16899455307,19.758733718,-3.82254875976,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2025-12-07,2025-12-14,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,120,43.9147613584,54.7116888473,-10.7969274889,0.197342244708,false,false,false,false,false,false,2026-08-25T00:00:00Z
+2025-12-14,2025-12-21,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,158,48.1484592377,76.9592175712,-28.8107583335,0.3743639715,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2025-12-21,2025-12-28,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,118,75.445259775,19.9326490256,55.5126107494,-2.78500919161,false,false,false,true,true,true,2026-08-25T00:00:00Z
+2025-12-28,2026-01-04,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,281,43.8894609984,125.038900681,-81.1494396826,0.648993547133,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-01-04,2026-01-11,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,260,42.8946878209,83.7085935313,-40.8139057104,0.487571275405,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-01-11,2026-01-18,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,151,125.066629419,15.094072761,109.972556658,-7.28581068869,false,false,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-18,2026-01-25,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,135,70.911268492,42.8194905629,28.0917779291,-0.65605119444,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-01-25,2026-02-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,203,40.9051468626,13.6043286626,27.3008182,-2.00677437874,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-01,2026-02-08,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,230,71.1786713228,20.8100374617,50.3686338611,-2.42040092209,false,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-08,2026-02-15,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,281,66.2446911197,72.9400856404,-6.6953945207,0.0917930718331,false,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-02-15,2026-02-22,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,257,48.9195752907,30.6634381049,18.2561371858,-0.595371501504,true,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-02-22,2026-03-01,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,185,51.4187673336,22.9538162263,28.4649511073,-1.2400966718,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-03-01,2026-03-08,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,143,58.0074073774,67.6985314677,-9.6911240903,0.143151171528,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-03-08,2026-03-15,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,80,89.5070106332,115.69163338,-26.1846227468,0.226331170041,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-15,2026-03-22,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,50,71.2344464468,99.5097729903,-28.2753265435,0.284146226987,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-22,2026-03-29,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,39,50.2939424555,51.2859942143,-0.9920517588,0.0193435220278,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-29,2026-04-05,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,24,42.693888925,29.6796047512,13.0142841738,-0.438492502946,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-04-05,2026-04-12,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,27,34.5803975169,13.5946294852,20.9857680317,-1.54368076412,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-12,2026-04-19,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,13,33.3505935675,12.266634559,21.0839590085,-1.71880550505,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-19,2026-04-26,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,7,34.1417339009,11.4695649411,22.6721689598,-1.97672440727,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-26,2026-05-03,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,7,29.3977200932,9.29938904982,20.0983310434,-2.16125284529,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-03,2026-05-10,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,7,26.7620053907,7.87907876789,18.8829266228,-2.39659066486,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-10,2026-05-17,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,2,26.0892821729,6.9224753322,19.1668068407,-2.768779363,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-05-17,2026-05-24,weekly incident influenza cases,1,SE-O,Västra Götalandsregionen,forecast,6,21.4787181673,5.84659898533,15.632119182,-2.67371154088,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2025-12-14,2025-12-28,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,118,32.5227750176,36.0387694297,-3.5159944121,0.0975614447369,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2025-12-21,2026-01-04,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,281,40.4112763404,155.997249254,-115.585972914,0.740948788946,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2025-12-28,2026-01-11,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,260,58.1678596445,95.0899476252,-36.9220879807,0.388285921938,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2026-01-04,2026-01-18,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,151,33.0351056513,14.1421609376,18.8929447137,-1.3359305411,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-11,2026-01-25,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,135,150.817126905,21.9995105243,128.817616381,-5.85547647701,false,false,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-18,2026-02-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,203,50.8488384391,14.0003516952,36.8484867439,-2.63196864951,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-25,2026-02-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,230,50.2175829298,11.7047033341,38.5128795957,-3.29037639796,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-01,2026-02-15,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,281,97.357059385,49.4918556559,47.8652037291,-0.967132937223,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-02-08,2026-02-22,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,257,56.4008546611,45.9389846336,10.4618700275,-0.227734028319,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-02-15,2026-03-01,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,185,42.7175137684,12.2045221656,30.5129916028,-2.50013816098,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-22,2026-03-08,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,143,59.9210750418,46.6363007199,13.2847743219,-0.284859092956,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-01,2026-03-15,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,80,93.6558848481,121.806937842,-28.1510529939,0.231112065475,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-08,2026-03-22,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,50,110.893221193,136.857809808,-25.964588615,0.189719451535,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-15,2026-03-29,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,39,79.0277964348,101.775635612,-22.7478391772,0.223509674397,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-22,2026-04-05,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,24,56.6874313464,58.5774677356,-1.8900363892,0.0322655871321,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-29,2026-04-12,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,27,41.3890657481,27.5327936575,13.8562720906,-0.503264298675,false,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-05,2026-04-19,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,13,39.2671627623,17.8325582659,21.4346044964,-1.20199267973,false,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-12,2026-04-26,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,7,36.4766823053,14.3717036785,22.1049786268,-1.53809034206,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-19,2026-05-03,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,7,34.1260363455,12.4557442293,21.6702921162,-1.73978300431,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-26,2026-05-10,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,7,29.3869682161,10.2863968019,19.1005714142,-1.85687678417,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-03,2026-05-17,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,2,30.898695443,9.57991481549,21.3187806275,-2.22536223318,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-05-10,2026-05-24,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,6,22.6560305606,7.33710429287,15.3189262677,-2.08787086243,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-17,2026-05-31,weekly incident influenza cases,2,SE-O,Västra Götalandsregionen,forecast,2,24.8908058503,7.40333900376,17.4874668465,-2.36210537403,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2025-12-21,2026-01-11,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,260,39.5107476907,127.447683869,-87.9369361783,0.689984576485,true,false,true,false,true,false,2026-08-25T00:00:00Z
+2025-12-28,2026-01-18,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,151,153.034866931,18.4500639663,134.584802965,-7.29454397614,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-04,2026-01-25,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,135,45.5906624049,13.395733618,32.1949287869,-2.40337182755,false,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-11,2026-02-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,203,117.198501077,15.6033552721,101.595145805,-6.5111089271,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-01-18,2026-02-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,230,50.0488315869,14.6915264018,35.3573051851,-2.4066461318,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-01-25,2026-02-15,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,281,71.3359918585,21.8973045371,49.4386873214,-2.25775219218,false,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-01,2026-02-22,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,257,89.5361238633,32.4684226368,57.0677012265,-1.75763700827,false,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-08,2026-03-01,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,185,38.2520341113,16.3256182487,21.9264158626,-1.34306802527,true,true,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-15,2026-03-08,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,143,48.9289566238,20.1821171292,28.7468394946,-1.42437184913,true,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-02-22,2026-03-15,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,80,99.9109449792,96.6158704021,3.2950745771,-0.0341048997787,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-01,2026-03-22,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,50,115.182029721,144.600350346,-29.418320625,0.203445707805,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-08,2026-03-29,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,39,118.710275037,140.65208216,-21.941807123,0.156000585175,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-15,2026-04-05,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,24,89.691616542,109.681945533,-19.990328991,0.18225724292,false,false,false,false,true,false,2026-08-25T00:00:00Z
+2026-03-22,2026-04-12,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,27,55.3775604749,53.7061792065,1.6713812684,-0.0311208373616,false,false,true,false,true,true,2026-08-25T00:00:00Z
+2026-03-29,2026-04-19,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,13,47.3768290314,33.4637718374,13.913057194,-0.415764763805,false,false,true,true,true,true,2026-08-25T00:00:00Z
+2026-04-05,2026-04-26,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,7,42.397780829,20.0497997271,22.3479811019,-1.1146236574,false,false,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-12,2026-05-03,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,7,36.4651802005,15.1564991847,21.3086810158,-1.40591047815,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-19,2026-05-10,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,7,34.1135252225,13.2496061308,20.8639190917,-1.57468221211,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-04-26,2026-05-17,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,2,33.5218889023,11.7991353862,21.7227535161,-1.84104621272,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-05-03,2026-05-24,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,6,27.4660359018,9.80802904878,17.658006853,-1.80036241381,false,true,false,true,true,true,2026-08-25T00:00:00Z
+2026-05-10,2026-05-31,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,2,26.0815629356,8.70778131184,17.3737816238,-1.99520187767,false,true,false,true,false,true,2026-08-25T00:00:00Z
+2026-05-17,2026-06-07,weekly incident influenza cases,3,SE-O,Västra Götalandsregionen,forecast,2,24.8775065728,8.20223371152,16.6752728613,-2.03301605974,false,true,false,true,false,true,2026-08-25T00:00:00Z
